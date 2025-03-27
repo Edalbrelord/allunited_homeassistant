@@ -5,7 +5,6 @@
 
 # Home Assistant
 config
-config_a
 
 # User-specific files
 *.rsuser
