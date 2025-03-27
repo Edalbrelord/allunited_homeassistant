@@ -1,0 +1,10 @@
+{
+    "domain": "allunited",
+    "name": "AllUnited Reservations",
+    "codeowners": ["edalbrelord@gmail.com"],
+    "dependencies": [],
+    "documentation": "https://github.com/Edalbrelord/allunited_homeassistant",
+    "iot_class": "cloud_polling",
+    "requirements": [],
+    "version": "0.1.0"
+  }

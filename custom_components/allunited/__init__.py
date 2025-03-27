@@ -1,0 +1,1 @@
+"""The AllUnited HomeAssistant integration."""
