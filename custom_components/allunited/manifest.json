@@ -5,6 +5,8 @@
     "dependencies": [],
     "documentation": "https://github.com/Edalbrelord/allunited_homeassistant",
     "iot_class": "cloud_polling",
+    "config_flow": true,
     "requirements": [],
     "version": "0.1.0"
+
   }
