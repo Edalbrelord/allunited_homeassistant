@@ -1,4 +1,4 @@
-from .const import DOMAIN
+from .const import DOMAIN, CONF_CALENDAR_NAME, CONF_CALENDAR_URL
 from homeassistant import config_entries
 
 import voluptuous as vol
@@ -6,6 +6,7 @@ import voluptuous as vol
 
 class AllunitedConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     """Example config flow."""
+
     # The schema version of the entries that it creates
     # Home Assistant will call your migrate method if the version changes
     VERSION = 1
@@ -13,15 +14,16 @@ class AllunitedConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
     async def async_step_user(self, user_input):
         data_schema = {
-            vol.Required("name"): str,
-            vol.Required("url"): str
+            vol.Required(CONF_CALENDAR_NAME): str,
+            vol.Required(CONF_CALENDAR_URL): str
         }
 
         if user_input is not None:
             return self.async_create_entry(
-                title=f"AllUnited - {user_input["name"]}",
+                title=f"AllUnited - {user_input[CONF_CALENDAR_NAME]}",
                 data={
-                    "url": user_input["url"],
+                    "name": user_input[CONF_CALENDAR_NAME],
+                    "url": user_input[CONF_CALENDAR_URL],
                 }
             )
 
