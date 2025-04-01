@@ -1,0 +1,2936 @@
+[
+    {
+        "BAAN01": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "20:15",
+                "timeto": "21:15",
+                "name": null,
+                "description": "Jacob G., Jim T.",
+                "comment": null,
+                "locationcode": "BAAN01",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~AAm5rzmnquB9oU1CEEK-Muq70ZvN2hW2iisktV3IyAmU18R-r8ywvcMbKIMKpu18LAqHxpQmZ1CSNrI-g4_XEVvK2aoozllwN-VvaPVsyIVu1kkmlmG3H1lCV4DfQQU35WIx9D9Wt_rdEy9J_HbFZOwQ4O4aJUpsynXThLALMPSjRAxCo_CSZ7PY_iv41aCi2Pbbla19pAVgZGemy3zuag\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169946",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "13:30",
+                "timeto": "15:00",
+                "name": null,
+                "description": "DiDo",
+                "comment": null,
+                "locationcode": "BAAN01",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~HMzzbBMf7ixea-JG3cbxsfaY3Y7JEntyHFpurSGjgWTBkjc6GGUM1dZOMFFP1vouS0HwNZpUq4Qm3N6pj3A2edyyJ5bt_tIUmFge5NP_eRR-EvoLfRbodvPb3ftxGNsrhdkZPFoyIJIuPTFycxJ2ppvURN6yQNlHNHkkkR2qhL9s1hssdZBkJXxbDwySLN5suBplPwnyqCAeHWP_coNxrw\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170028",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "18:15",
+                "timeto": "19:15",
+                "name": null,
+                "description": "Kasper K., Tobias K.",
+                "comment": null,
+                "locationcode": "BAAN01",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~RZ2Dv67U9zZ3cOYyMNDULiRjyMK_Im0Mho3uYC6LNosOCnj6RQCaGK82tvIzcqIYOxYaTz-w4Yhj3U2Jybro5cvUl2ApxZV21vuMMPYR6rVosAAc8Du17-MLkF2NrkUqjZqWgVL-GbOyShYdpd48xZGs-fIG7akcOfqksNOntu47U75euEwloMOOhr-jNzRBvDO-G6L2MMyHbYNWONU71g\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170356",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "11:15",
+                "timeto": "12:15",
+                "name": null,
+                "description": "Rik S., Bertus K.",
+                "comment": null,
+                "locationcode": "BAAN01",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~k-JivGn6VT2mcWx6NhGY6as913_0trBAaPUjba7Slrl5meKwDD2gJl43xABP-alFwvRec6siMao2if1MfgOjKq_yD7jJyYJlZmTAYTtOYqonweeceJp6T83cXnIyJ0aPpr178GqnxV2zFW4N91SCMen_IX5SJYHgDhG5MQWsc5XMMBHsfSOJ6acagVCnmhf8QInuDKyF1GBUb3U9pdoKFg\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170462",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "BAAN02": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "09:15",
+                "timeto": "10:15",
+                "name": null,
+                "description": "Jeroen P., Julien P.",
+                "comment": null,
+                "locationcode": "BAAN02",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~_nj4W98TdeY4nlplYjoIOtMiTFV2MsRkrH3KBDl5aXPtRgwqfNq2ppBoaJS9MCiu-ALBWezG2TBJamG0gY6ZvfBAusWAu4ASjioYsX291w9GSckAYdwL11dSytSWOs26ygkfCt8Cp-EXgSmzAf2kcCvQeGDzbrtsfF3F4Npll6dL7FJr_FJY0xfmJHEVE5ffIZdD8gFT1d2wK_DyQ5ipJg\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169803",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "20:15",
+                "timeto": "21:15",
+                "name": null,
+                "description": "Sunny S., Joey I.",
+                "comment": null,
+                "locationcode": "BAAN02",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~d1ZRzjsKYtNIpYhvuE_c9j3sq0Ps_giaITawLwewqutcBZBwRbIzCUIYb7RXhCBCRkArcQ0J5QnxXlGuwUM5AXMlv29LuTmxC9Hy8P-2RwlYqA2zrFVLFs6e0UreH8GoSVOlTCr7xorEcOFQTc6UlsPaTD6odxIv52FLKjN4SYUfzHW1JjnNpvSpDOcIj-GAxv9nCDk_pZOKm8QvRbzqgA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169967",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "13:30",
+                "timeto": "15:00",
+                "name": null,
+                "description": "DiDo",
+                "comment": null,
+                "locationcode": "BAAN02",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~kqJABx6l2kI8yyoCFzRCOZMPhrS0cJ6wcONUEcmkgo-v3-W-8KayXl_bjXAgMj71vUxaOgItby-qM44wUVb9wNKdbNBoIFvv8u1bkSvuwQi6qfBN8eDsbPjC843JpeyI3u-tRPKXmPv2SvGCfsFbO68i2-dSlYl5xn8nVGV1slYWYO1H1lAXxWmm9rcpz0n0rathmU-cmwMsub5emvR1DA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170072",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "19:15",
+                "timeto": "20:15",
+                "name": null,
+                "description": "Janusz J., Robert H.",
+                "comment": null,
+                "locationcode": "BAAN02",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~K3Zxg1Q-kd1gWxbuOuT2LJRZ1r2XZq9kvC1mBq_ITH1ssxd-LFA-Rk4vPbiCNqlJr2YjgUO26k7bZcuC3I0c-KC-mu--c9B4qVqH9aJ4heg3NRrblYz1rF3C3cg7uSOVK5Eu94qian2HnTsWyPHsjgzqDVbDpXvvyvmpP2v3VTiHUa2Mp1elssnguc0ShSXPLt74ptv6wIGdPlFrd1e3EQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170410",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "BAAN03": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "09:15",
+                "timeto": "10:15",
+                "name": null,
+                "description": "Maya L., Gemma B., Mary S., Trudy B.",
+                "comment": null,
+                "locationcode": "BAAN03",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~doXWfYO46J7BDWjEu4JTD5GybsxHCvkL4iDvpifTCiersoauDe2g06hmhbgyAgKxWBo3NLnniMLQdvARzQkR9L51s2VYYJHzjV6VY1hRaIaBO1qx7lkPol3vXSgxoN6Oha9xZQkS6ZoGrGKGN7lXYyjcMf43xmVLSYB6Rkwn70N5QHD6davZ7s9G3SZjNkgQs3_UFkX0DzvcRrwH5cbP3Q\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169805",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "20:15",
+                "timeto": "21:15",
+                "name": null,
+                "description": "Henk E., Hans M., Tjalling D., Wilco K.",
+                "comment": null,
+                "locationcode": "BAAN03",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~Qguvjm4j577xT_xFoWnThWzj6yAyXf075dhLfR1uaCyBGmb3wv4dRqcbl68s1raQrsjIz4WSPmsaL5bsVuv47zMcKgNV2CxJSpz0j352Bg6HhFz76c4X1nEXMZzeFMClJxUXIxxFXHv880mGspAJ9UH32fmHAlbOePw5BKtpQHXDSXyT4hHnwIaKm4F2JvHyVW9EnMZ0nFp5QIlFYBAXZA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170006",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "19:15",
+                "timeto": "20:15",
+                "name": null,
+                "description": "J\u00f6rgen H., Dennis B., Edwin D., Eric D.",
+                "comment": null,
+                "locationcode": "BAAN03",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~FM8-NRd6r_7qMoQcwoOJwB24nEmmOG4zHJ_LUSnLvCNZadOnw_WxfSxNBlsXIgegBTMwFvmsoKSpYEANWrm9KjASyZVyNr_6B2FrGS1zhs177bLqKalZ6eQX1qeE3lT9uNXdfULekixnx9gSDo1G0DqaAPcL1GG_jYktt0NWWP5BGmJJ6mfC97jccURYJp8MBRqtg_XoVEHnomOhBUSdVQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170024",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "13:30",
+                "timeto": "15:00",
+                "name": null,
+                "description": "DiDo",
+                "comment": null,
+                "locationcode": "BAAN03",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~os5JhwnbmxnrD6RlY617Vyp9M7hp2vTBemzjv-w_clyNc8Pp9YsytXRQ6gcP5X95Au6K3mDgr5utAgRKK8-R2ugIh5hOYKzX6G47mCmEZlvtfNu4mCF1oDISM72OcDU6eznDniHxw99Y38y2p0gY-8EHYq15vPoKrk5T3n5DFg8pXncSOQNgAaoKPWXeVoGCBupUOw4w9GPMeFAMXFlSHQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170116",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            }
+        ],
+        "BAAN04": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "09:15",
+                "timeto": "10:15",
+                "name": null,
+                "description": "Marjo I., Arda P., Japke M., Jeanne B.",
+                "comment": null,
+                "locationcode": "BAAN04",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~moUdB8A9Vtf5nGhFdyfiM_eNp__H1vauLO9gNyXxiPfkgCqcseq4p8ibL3rjAjnr5XOVP3E_hzQPM34mHFAQAmlpKUEd2FJnZV04R1d3LaO5rmvSFe6oll3G2PkEaJ195GfLG0V1C8f4FxGV5vbd_hCik3Ym82ktzj4zNOaTJOUdkN_ulK1WA3S0cQnk8zhitq-fIldMF54i0gCzt-o20w\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169816",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "20:15",
+                "timeto": "21:15",
+                "name": null,
+                "description": "Kenrik H., Peggy H.",
+                "comment": null,
+                "locationcode": "BAAN04",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~EDZR_HSvrxWSR_XWlwn588yZbFulKJKePhnaa1PmOz2cmC9_FVXGWl-Bp2bfbqbpyvQuaozm9uokMDooWlGhoPEpttjc3BOWXCKrRMuPLAwupCfrjKrWanjn1HsNhjNmiO-5oox_XUzU6q76_y2hcKOregQrlK-TayrYUtR_MbVbRCuQAWhI5yYusVJ7ZNgGgUsAYHW-A68FlGvbBOxpOA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170026",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "13:30",
+                "timeto": "15:00",
+                "name": null,
+                "description": "DiDo",
+                "comment": null,
+                "locationcode": "BAAN04",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~cGP9whzku7BjZ13N7DcHSAVQPhPpxrhIu9XNP7A5-y2PlHLHpJLLGvS7k991cC6GLiR9ic-8u1oBP636CaSJTYAi_HDqOu-LCQLxmL2uBzyfYag79ZBtcA5efE-zJUCwcECZ3xN4rz2prLHcls9K8CgzM58IY9OZcR3mko0wvUF0L1dCrCWT9MO-xNP95Ece3BVqL1jJPmeTtWsKal6Dsg\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170160",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "19:15",
+                "timeto": "20:15",
+                "name": null,
+                "description": "Wil P., Alice B., Alma P., Wouter B.",
+                "comment": null,
+                "locationcode": "BAAN04",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~faOPdyKuCb3OuugUgGtVFe3_UM8i2iYR5CjxP3_mwCF3YCz1d65q_OnPF48drNlYRWdKVjklUYgOvHOo3_nN7TWNsiwXxiLoU_rPC5l1p0UQUoN6d3LAmIn_-8qKrdeh_b-Bv88caUixPexxHiL8yB8mclybW0MpIJsvjUnqg2-gcY9B1xWpMBO1HULG0ojARXExsW23JQAExr8O9r0zhw\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170342",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "BAAN05": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "13:30",
+                "timeto": "15:00",
+                "name": null,
+                "description": "DiDo",
+                "comment": null,
+                "locationcode": "BAAN05",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~1iE0twjQcvM4KJrJlXWGQ_PQARsTb3vsheNhZIFGTKGb44hxU1ZYp7rLWxCuFOvSsgvBArlKuifUmJubXKf1Fkv9AezyBRilwEIqdBUoZQwU8rw4qZpKK2X_jytsJ7nTzr-vYVeP0k5nRy-GIpMC4LT9OFsdIamnM6uC-xQVDw8_08wclDrCBZ4_WWfdYI-Qsc2txPbQM4UnQDmc_QRMnQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170204",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "10:15",
+                "timeto": "11:15",
+                "name": null,
+                "description": "Tineke R., Mieke H., Tony V.",
+                "comment": null,
+                "locationcode": "BAAN05",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~4QiUdDlwHwEdLv0SB0Inp-fMJmf81nBiVuevxECnbHIVe9cxsvYP-9lS96SDmMmpZz3EceiFqv0qztlCdmnv7PdY-0TAoVbu_M094qcxy6Gg_-rhmMVAs5IWqDpRf-u-soj958pH5Gzvy6XbuEVcpotpv5KAqYcbLB02AHr2jcjL5HsgTk3oMKXyNTbffcEzl6l9W-OTMkU2GCO_bMRiRQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170454",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "BAAN06": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "10:15",
+                "timeto": "11:15",
+                "name": null,
+                "description": "Theo A., Jan K., Tjeerd P., Wim E.",
+                "comment": null,
+                "locationcode": "BAAN06",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~ZOEFAnMXZvw-izVT2rKpXY_C2I09V5x_NTUMbEIZYl7wf6AUkwfbtNtrVDdywVQ9OP5KKIQgCAx44sO-Bf19MVjWu5mQkQRGDS6M5FX1rG30beVTbh625_sdrBEicqET8H2kiyUJT8nbr1hwTqsI6lTxtBOqShPTZ8Caj375G190yxZBRayOTv6u2gQpyCsvqZZ7WpCSadMwogGbFMVPyQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169856",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "18:15",
+                "timeto": "19:15",
+                "name": null,
+                "description": "Femke T., Corina T.",
+                "comment": null,
+                "locationcode": "BAAN06",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~L65aJvnPp2MUX4bToaIDBNe8fUeGZFe3rNJD9mbY1PkGDpHEP2oozXGWnStUTzbi_-BObiBASb88jIaBVYXnyGRitlmfUVOS1d4AaVNlAiNq43Td3QaqgI-Pd4Ww0_bRH_RrPGb-3-En-vUrARMOXiD-9XaNnRkKIDydryFm09aqeXJ9fc9wQQOrAt3N5-hEAqDspJCd48Lx3s-wyK82rw\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169945",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "13:30",
+                "timeto": "15:00",
+                "name": null,
+                "description": "DiDo",
+                "comment": null,
+                "locationcode": "BAAN06",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~RKEfXd2HArGH_kNZQHHslAD_TIF3KN3YfwVX2GBTJ5leXJPqoHixBpjbxQtENd0LtIwxofGCHnV5hvSAZkhjuRcLNW-qX070ZNqenoaU8cseZO2mbWgClEsXoGTBfhnHJi4Mc1EIooRCYTGbCsA663giLnrzoCOe5I4q6CtKHWxKTJgqpEQQE0UuKTBDcVwh3UCEFXKuiD-bM-drmlcl1g\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170248",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "16:15",
+                "timeto": "17:15",
+                "name": null,
+                "description": "Rosan S., Sophie P.",
+                "comment": null,
+                "locationcode": "BAAN06",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~gX8XcS6Whd9PAI1I4zxZNclK9tsyBa6OeW2x6jl_IYl-Ir510YPIdKaFtWjZOJUJE7_NbWKE6NLr_d8RV8Le12cHTk0MDHmwrO0_jFle2JLLQ65I9YJie0Q_pMijUsMN9daY7fXm0bgqiArm8BCta5QkpvsXc2BMm525mbguk0SAmFLUwpKtHPhab6EGMbl9JXC7RHPSnXDx_eYNqSrlhw\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170501",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "BAAN07": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "15:00",
+                "timeto": "19:00",
+                "name": null,
+                "description": "Training TO",
+                "comment": "training TO",
+                "locationcode": "BAAN07",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~m7LEsjPzxh1z2Two0WkkQd5SHO477gfDGK3C_ksu_fa1YeV4mfW77DB_VXG4PRhjU3DXBL4IRvdpCglvVdeLezy9DxPAngHKe_gdmi1oEj0eVQHVgIaXS0ZX-rR-r-8-G107bNK8sUs6S8Jm1Riu1owqyIKP1W9zh4BQVOOCvpXHPFkPsGbl6VJ7O37TCI65hdfZgJztU0t-v09FM5AyDg\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71168458",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "19:00",
+                "timeto": "22:00",
+                "name": null,
+                "description": "ReGu training",
+                "comment": null,
+                "locationcode": "BAAN07",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~XroFQIZbupg7vmvzoI8IgjT3sKYO7PKriT4CVfry9KZbwbwx29aLFIM_1_dSVveDlF1tJOUE8T9Sd8IVUS8xkyolnsO9e86x2m1bgDxPEB4C84QveJJbPw4RDTL2qK4ZsvPKEh8_7bLfW_Z1QdNfoajgCAQx8bV3GK0bWXmSa2ZWQAlPKxdYi9jmvoS3I_puvdc0b2xXPuhKRQ5p8nMQVg\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169464",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "11:00",
+                "timeto": "12:00",
+                "name": null,
+                "description": "Greetje H., Anke J., M.J. B., Marry S.",
+                "comment": null,
+                "locationcode": "BAAN07",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~6Bgl4PEzGPjNmxU5CshTU8JsCKfPUnMUfQhBJgmXm0MMFSuXhtJtesNPQNSeBVC7VCk62NWkzTjrj2ga9ZqebEJ2LpAlzvxwiRv7EdBxWHhCDBE4JnI61MiRkMBeh88AcDaksGGHdHPbG2HLft9iINO8MPuWt2lvSJ6X3eoHxnTCuPEGP11yyopnlUG7Y4Xpd59S1fSMJl1xAGj1glwfpA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169957",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "13:30",
+                "timeto": "15:00",
+                "name": null,
+                "description": "DiDo",
+                "comment": null,
+                "locationcode": "BAAN07",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~udMbEMSboRqpfhYe0BQd5YRIfWNVCPGmlyc5C654xHcARg23vy-s9uj_NWc4YzdvpzJPUcPTMOMHj-zzfAFHvI4_4CA5hod22Dm75mulg68Y9x155QKvwq-q5VbaogWQHz4kkH8BwlNf9R58Otm4ZSTQ7uID4PvcfSDKUBYLfnQzXMTAupEvSOGrPPAaOxOW3NZZKsK9inY8782tGYcOIg\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170292",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "09:00",
+                "timeto": "10:00",
+                "name": null,
+                "description": "Aryan V., Marijke V.",
+                "comment": null,
+                "locationcode": "BAAN07",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~IU3XEVlXGy62UZyrI64kEfVqaasS_ZFhA4UXYHUxhADxiKqrBu6khfaF9GVkEsjZ7l5kIGUd3dts_cF6SrN1_onsYZM3rvlGVJXNDHi9g5xcTCJL-GKjHPTTinjrtzZvxpaAaJd3ZuSfmMre1PzH2MH3FcpS8YSSmkq7V5amOSZuLsUoVHQV4pXWTb9h83G_zX68-2eZGMHfhmlLWiEj2A\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170453",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "BAAN08": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "15:00",
+                "timeto": "19:00",
+                "name": null,
+                "description": "Training TO",
+                "comment": "training TO",
+                "locationcode": "BAAN08",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~XIwDQNnYN4384ZWtlYiEzyjJRbSVyS8Bmh6KL3HbSj4t8XDI1WEyAwZqXFkQXlPZuZ0SSZV3zqrn8cfGxcvLFVldT2AS91KunHgoI2KebiwzuqZeLM7ZwvwY_pbjZrnLiLai7bzp-B6Dh0mb7JT_ZHo2UiaH5VX1ghUplHqPn4FNwFnBeyUqPwLRjB5U8pYo6YdInqrOnNdxQ6NuqtOMkw\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71168473",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "11:00",
+                "timeto": "12:00",
+                "name": null,
+                "description": "Tine B., Jannie H., Ria B., Willy J.",
+                "comment": null,
+                "locationcode": "BAAN08",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~IZE9OFNnAo-wxYqOT4qMMzjyZfSkKk_dkDwkGbnCBYwOyMVuAZ2Jbx682Tl7WFzrgmbqPnocMLpi5ze9b-6H3LcYrtS21rFHddPWyhrt9pZGlrNCiGqGjQ8Q9Ddh3RP76yLQjShOKJW2s-2z9t3Tra2rMk_L6gGCrpKh2rwpvQBB8jH7Ju3M9HSSa71j_DgCejQO_s332EZz9ZYwBvrJHw\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169973",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "BAAN09": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "14:00",
+                "timeto": "15:00",
+                "name": null,
+                "description": "Mark V., Stefan G.",
+                "comment": null,
+                "locationcode": "BAAN09",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~3Flz-BwDMSnB-IIN8f9hadZ3ADWG3FXkPDMh0Mjzy8uIImhw0808YRY2YXO6owv-P3XONrT1Yrs-Gs6OS_4p_LSFrRzjt8hAAqmrRUYCkjJNw63odfd3AuJdR89Il1uNPBxQp6Ebh-sFGPol4EG9R0Z51PcN0g5mVuWyb2vpLMTCKDOEfbJMH-PdUH81TurbBpfOYFj0pMBtk5AWPyhIMA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170374",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "BAAN10": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "15:00",
+                "timeto": "19:00",
+                "name": null,
+                "description": "Training TO",
+                "comment": "training TO",
+                "locationcode": "BAAN10",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~6u-TLBytynlLDDT-TooZHoMmPiJFGmXhiER9_fp2dPrKB6JZ3KkBOjwpDwy3ALgiQKxFnm8DPvJIhRy9jnomV1kCWd318llEmINWsnYqzTB1yd1VEuo4FoGeMVRJUEJzdstHs5dvCv2f-SYshHPzNtI5vqRnwX6Pklt3T5kd-8_5NTOQt5P2mOuSpDUN8923uZUnLV57ykwXzBblPaZzDQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71168488",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "19:00",
+                "timeto": "20:00",
+                "name": null,
+                "description": "Bibi K., Sophie F.",
+                "comment": null,
+                "locationcode": "BAAN10",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~zFq4kIWFjXPInftLoiInLGToQ8Tgh9GC3AOjPnFkM8tzLrX3UkEfpRlXtZr4G4HJLZrbmwxKvY-Cvo9emsU6Uk8SJeZvkCsP4wnbWYfHHZU-aDNxvZS9gKGQr0wVw6GoF8fPzR3jjiPduieCWrUFLyKdBLarltBcTFrchVCAdHW9_aqL2SCiqk8xx-TfWLsVYq7q4qdRYtNnPtdoTZ4OoQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170436",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "BAAN11": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "15:00",
+                "timeto": "19:00",
+                "name": null,
+                "description": "Training TO",
+                "comment": "training TO",
+                "locationcode": "BAAN11",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~bqzx1A4AdVvIv09cLevD7pIuqr9PeJD2pBmbbNjp-_75V9bYj-jnfxoLQRl0C1upmPY0G9p_kHCbxuDoMTYmivBki70mUsJ9Iw6usr95Jnt9BmfkEr-hq1KgCe1j0f7XF9-26dzqeLg5BlFR3SCIHdkiAeLCZeBLkwumka8fcq3l2gVK7UiPOPBwsmetJ_S3G0K8FjBTsbpEMwV3GAyBvA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71168503",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "19:00",
+                "timeto": "22:00",
+                "name": null,
+                "description": "ReGu training",
+                "comment": null,
+                "locationcode": "BAAN11",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~w7sbpiUcW0M5CZcIMFW8JH_8xILKMbnSMfN0xkCy35Cq-gTO13_wsveo5ozMQjefy14_p8db5sGRkATsRotXw79FqQmgjoXkuVQ8FzLkHxFKpuDlr1C_m8IvppAEscwidcwYARMoV9bklHuTu5KFDcQ_5LsW4sEQAMck-4qG8mU_tL9Chkn5MzkOlaSor74XHPZzH0aEtFvtclt2-SMILw\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169527",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "09:00",
+                "timeto": "10:00",
+                "name": null,
+                "description": "Judith P., Dennis P.",
+                "comment": null,
+                "locationcode": "BAAN11",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~1dcO5ZVoI0bDqvurLCHhN0R_SZ087jpWFHZv2-tJecNQOgBqSFBL0I5nJCFKR0gE570plL-m-aRYNulvwhoBNZ358ILTVAClQXpFQ0Ve9DFCMPX6JaRd9VVECfsDj01YzjUMyVji4YEwja9neL7CMhlPPS3bAKLCh13yWwn4z-aO2j8RtN3Gbv0XIODxER3hRmE2cDkfKKUrj2oRoo4URQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170385",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "BAAN12": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "14:30",
+                "timeto": "19:00",
+                "name": null,
+                "description": "Training TO",
+                "comment": "training TO",
+                "locationcode": "BAAN12",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~rpcl1jAxDYfSImXwMMPZgFrfbC3TyKWiBnNc0iG7dNfjTE0xOsAtF48stuW9reGPJug3k2ejfuTr9M71V3N4XXCazd3MMnkxlKQm_iCzTOGbjZJmZ393yXkLjd41sfyZLpZxMSuO03M_L-y-d7oFAuYdVI-hdajT5ZNVlCpC35dtCuEXxY6jdxfEwO0rNTUHANhCjClZE4mtW4mTCAkpDg\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71168428",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "09:45",
+                "timeto": "10:45",
+                "name": null,
+                "description": "Ank W., Carla K., Greet K., Yvonne E.",
+                "comment": null,
+                "locationcode": "BAAN12",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~ZX61e6yo452oVKCw76DfywrenPAWzIJQ8uj4HgAETFocAo9cCBDpVAwauiqToE2H-V36Fw77rKOyAxjoQ28uexS8jIBRLp4VROKnycYtkgtOC6zSa5ywJ0B8LJBSUmxjC8bEKX_hr3v5J-0gGGzs8Ll2jWI04r7Z01u4twXiD20Dj15WX0tRLBkLqncJCA86NGB5_siXDWAnhCtB0ePEwg\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169814",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "BAAN13": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "14:30",
+                "timeto": "19:00",
+                "name": null,
+                "description": "Training TO",
+                "comment": "training TO",
+                "locationcode": "BAAN13",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~MBnlh05gP8mw1ORef0hIzOaixZIjhyj5I4CWyEsOiS_DDzUPkyd-T8VPzHbCjK0Vpds0xjff-kCEVgMFb169BgBcDuclSq-nchmQ8HokkYoGlXAcpCo-l7M7rpVGl_O0uQLhc3h39kfqm1Ec0ZFwJ4dICJBQ3Qv56CQ7OHNX9o2KPnn-NapQyZYxWKYSxfhQEFQqwzH786k3esjEnhN5qA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71168443",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            }
+        ],
+        "BAAN14": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "09:45",
+                "timeto": "10:45",
+                "name": null,
+                "description": "Elly G., Ada B., Ria W., Sonja S.",
+                "comment": null,
+                "locationcode": "BAAN14",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~c5JGOr5BVCYbuPl0cKVouOK2ZRcTspYbpFh0cYaryvBY2RYkggvFViJGy5VpEYZn60UaUDvy1GsdkIY5QEmGQa8tTUKgxc5lyA1hcfVPFcVIXiNawabgtRF-oSLhds7obD-67Nm1AvnFK5dPqCKz1yW7fgAKdsK88nVXNf1IrqoAsI-qitfLLxOgupIvsK_WGYM6erWGa2mopR4HELFJMw\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169931",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "BAAN15": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "09:45",
+                "timeto": "10:45",
+                "name": null,
+                "description": "Marijke A., Ans G., Marga G., C.G. T.",
+                "comment": null,
+                "locationcode": "BAAN15",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~_OPlJruS_tnAi92hG6JZA3FcM5UxKizYQyo7HpQKgFa7NH1faf5_5SW3vSocTVBIu8WqPHdvmaUVVcEH4WnhI9-LvJR4JKby1KLGJDCn11i_zh118vr65A2u4cnFtGOnUaL_ZNEicjoq5iZXBVfUDRPUyXT2nhC9s_dlxbkqYmX3kMRkBRbxt-I8Z0fsrmUmEonakAY9fezkr-JgMOzITQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169858",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "10:45",
+                "timeto": "11:45",
+                "name": null,
+                "description": "Ben R., Gees J.",
+                "comment": null,
+                "locationcode": "BAAN15",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~4nuoyzFfvDWXUwawp87Ol49I_7ZATjvFEbx55cAd_QJKVPF6PRIudoOVphnkCvEOvB3uNJKrfVRLJ03EyWpBvzGZcxJBWtkCURyBOSWBszlKWValpsgqOQNB2_Ky3m3jeoqyr_dxbd3yQsszkAJlLYvi13nRmRE9RCMM1-ANBJ5YTMhTiVVo_U_X-tWf-zptPTwZpVFLupNx4ldKtP0hfQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169860",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "18:45",
+                "timeto": "19:45",
+                "name": null,
+                "description": "Floor H., Isabel A.",
+                "comment": null,
+                "locationcode": "BAAN15",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~3038yiH-U-7jPgQAbkWzTdzIhaYOkHP5H8JqawPHztZ5sB9p8y_GC-d80biWEgSIqr3aUv-LqD44sSm3X39LMD2NKzYwzo16iB8UfXmBho2Pm8cmfq0nlKzTXC9Aj28gtnoPl89-7VbJuxQds7bsMX4ZvGpqG36W3uaPCNvqeXXmJK1kDF2r3Y_VqmJKXnfkFz-vW5wH0l1fygXYx6NM4Q\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169985",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "19:45",
+                "timeto": "20:45",
+                "name": null,
+                "description": "John M., Introduc\u00e9 P.",
+                "comment": null,
+                "locationcode": "BAAN15",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~Tc1LIsoOm1zWdK5P1X-U-PAa0A0FXKc3u7Ze5dqxXRPeC_88QUMm4K_e1n_yOHU_PHEiqE2RKDigwP82caDmVSjJ4xVEsCK-8w25XYo02UdwDhu-07C8XPjmlj0CvgT-zsat390_pAFRvn3BzDOQl33y_96PWafoP79aBPoZMUT6dVVSBVcXiMh2Yce1ZnQtnofTbtNNo6fdZgShV5OR0w\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170025",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "12:45",
+                "timeto": "13:45",
+                "name": null,
+                "description": "Chiel L., Jordi S.",
+                "comment": null,
+                "locationcode": "BAAN15",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~6Ycm-FSIUK9Qi3SKdVtvPsXVWRaEqweMUU48Di0Vco_yLxCipBXQ0Rl7QZW74IWR2OrLQdhNPk5eP9PA0FabrVknSJHt97crseV4MFoLtCQD8RPBLyZLvqz3bJ7PwKXf-vcWs4hAwO_V0mDwGkMmib3dOdNzNghHgEZ4d1_Td783XJ-qQQLAeLlI_VU0zVzJ2CFL_HconEcghKil5jPFig\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170464",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "BAAN16": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "13:00",
+                "timeto": "15:00",
+                "name": null,
+                "description": "DiDo",
+                "comment": null,
+                "locationcode": "BAAN16",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~2_TFOml2GTKXb9u9tK4fkBryJU_iC6vNo71x4CJoiFW0HD0W_pzZOLS8zL1NsgJb63cAWOaCGVOdjwRa7pV7zFpGoqFlV1OYdKK-R9OTP_juA30MllJPgo_PGx_E6_CxZkh9N15WywiQ9_52TVC3r9R-ULXrUG_ipelLFFYPz2UvGTTbFkSYdKZjSrnqDHd_DUqYmKZ0R2iMhf50sfVcGw\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71152788",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "09:45",
+                "timeto": "10:45",
+                "name": null,
+                "description": "Sonya M., Fokje Y., Gon R., Nelly O.",
+                "comment": null,
+                "locationcode": "BAAN16",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~_qeFL8hZB9PTMtTZekDN8Z1Ed3eF3QSMo-_bOzp-bJtJlQoK1qkwU6t5H9DVHexdZRSyAXJyfqLrNsW6468MJrq0xHsvsfEswt0d6sCM0g3lMUwRdAn8YhHoC6vm3xjnmX2cofihnZlLT_sykhfYXnwioVDNenSebLwK8lZfV5_2ApMG1DmjbPGQ3f-sslmyhOD0G8jUYBNAsfR4g2CIIQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169836",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "15:45",
+                "timeto": "16:45",
+                "name": null,
+                "description": "Ellen G., Ineke O.",
+                "comment": null,
+                "locationcode": "BAAN16",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~5TyWAvwoPcZrjU_DDyqxn_WZ9Z4TQJV5RMiw6YPTnu3QbggzkHkftJY8PoqMUyphWZ13bpBwTnlhNgDvlh0MQZlWv4Bm_C40sZz_VfZ_wK4cPTkns6readQQ3TsRLQaP2Km_qRGxJPkkQO-dMGg4F7cmv2iprEo3POBeFLx-EHQUcjU8yRvksNrJM74o8QgzM_oDzWhg6cS3px-ezOXrkg\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170445",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "BAAN17": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "13:00",
+                "timeto": "15:00",
+                "name": null,
+                "description": "DiDo",
+                "comment": null,
+                "locationcode": "BAAN17",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~4BcsKO5OyatoTJPnFJTKhn4IuH5K9MQuhUQJ5ndOtcTbIR5XuLNfPHev1iwnfjY1ikhl3NQ6OngAjYAgB-OZwp9Q0BH96LGiTs_2ts_FdHKc4EREbLt0Ram09pj3NeVs6vJIEtsBhbTvEqfOvSIXEJzR1GKTAQ5xtejD1knnII5SJTUqrESWROkZajW3gNux0NwLYfg-LQIxH64jtilTmg\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71152839",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "09:45",
+                "timeto": "10:45",
+                "name": null,
+                "description": "Cindy O., Agnes S., Anneke S., Margriet O.",
+                "comment": null,
+                "locationcode": "BAAN17",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~Uiuy8rej3D0m98m4oQ1FSbbuDMUuZrAVVzK0nlqs_XwsRKzfkLJwL20OmJz8jy-gSicJ68M8aZQJcb3KADk0WdyOyCT7SE8_Ivth6f4FdCet2g9UbKRYs4aLjJzbVLUP0cDVaLciiYw51YeAj_s6VEuvFKQ08cmehuO1QWYG3Svrn2NnT3Ioh4EJWFgUBbvzKqm8VqQiXTUmo8F-YYcw3A\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169812",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "BAAN18": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "13:00",
+                "timeto": "15:00",
+                "name": null,
+                "description": "DiDo",
+                "comment": null,
+                "locationcode": "BAAN18",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~FScI-kGVc1qVOG3NqnyonAR99YBQwP6INknCLQySR006o3WmJhgqcNlAbv4Y5sJNIQt0xQ1mEAmH5R0x_40fBTWvnKBR1o6tZws3pqvI3py3gWgboqMRAaKy4X2GlIBzdROZIdqKLXvb_mgIgSkq99qYF_bN9jcLsN3VJooSci7nrimlpZOYp5IiXx6TxdgajCRYsAxxZQg79K9MqOIFjA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71152890",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "09:45",
+                "timeto": "10:45",
+                "name": null,
+                "description": "Joost V., Jos M.",
+                "comment": null,
+                "locationcode": "BAAN18",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~v_9JxJvkvbarbaWHK7Sgwwfz1FtwE4T4lp8eAZYk6i-k9EFapXFqRCgo-Q56cyRc7ULa4-40iJ755z_yw27y8HoQfRUMJ8iwWA-OaN85lplw0A_k34OV90hcIq0GwpeUxC2ioe9gNhwfpu6eWngBDgH-fw79aWAmi_x9im_TbDNfMkOYCaHSQmg2hBrlCv9JUrUIGFd10iwsS7PrWl1GkQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169811",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "PADEL 1": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "10:00",
+                "timeto": "11:00",
+                "name": null,
+                "description": "Rina Z., Jos\u00e9e R., Marianne H., Suzette H.",
+                "comment": null,
+                "locationcode": "PADEL 1",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~2qTirs7GTPdYT2zR0uZ1PYtR3AZE4pHToq8A-2WqNmrI2WgujVMJPUKCwHklG1YKh28SGl29lOlpmk9O-crEL2uKr2_ymFe-r8BEvjw8whlMUBIDHe3WmvkbjE_69tLQj83l6bXW8BJNohycjQ5hxtmt4hgSSPdvxek1MkDbA67_xYvV77ruy3qcLcH_aU4cL47f6xzgurPv_UdDDmDdLg\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169819",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "20:00",
+                "timeto": "21:00",
+                "name": null,
+                "description": "Davy B., Damon A., Bodhi H., Patrick B.",
+                "comment": null,
+                "locationcode": "PADEL 1",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~COgeRR7js3VVjUEMGlvaXI4Or7X5Szr0orSDWZ0l_unLQFxa4O0YUv54tDtYsISmoexPWV05Wm4DqmdiGjiHJ9yPHBrA76Y4j9Pv0kpaAr_DAGRtkYXp8RKRoLQTlJ4FIoNL9ObSSpL_k-MU-chAdQ1IPQKz_Nr8TseDAPOyT__1-DzCeTRi6wbG9obSlKpTf5UASkUB4Q_V1d4MUsqdGA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169875",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "19:00",
+                "timeto": "20:00",
+                "name": null,
+                "description": "Joey I., Sunny S., Robin Z., Alon B.",
+                "comment": null,
+                "locationcode": "PADEL 1",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~lvRIG4KOOhNGOQJ7scfUehJpHEfi2ufOJRsHEgi32wAjDBNmcumKyEWOvx8schlgH6HjMmEBd9uiGSgnEDr5FMSfTpAUlFTTypfwJHXoTFHSokfEnkNaFySNnFR0h7ygouVwRNm00ff6vX2laNRvQfu49-tRBdUYjRqIA27uqihrFJ9FS-Bc4Gb29wCk6xfxXMxwJG34JZaXuVBC6lgPOQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169970",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "21:00",
+                "timeto": "22:00",
+                "name": null,
+                "description": "Otto S., Hans D., Bas R., Bram W.",
+                "comment": null,
+                "locationcode": "PADEL 1",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~T8csisDm6OXpEfmaVoqDHw4pP9oaD7K-rXPW5jL2gtyvqBEbcuUgTxwaiZqEeVfsLuJ3YTFADmzVKRh4nYM9FukFX8eHaz41ZOECRJZHcfK8OpGGiLNV74pxvZ11QrArD238KQiF-A1Y1s7OUPyY-93X_vAg5-mtdoX0XUQ-bK1wBohoY9hMLWEBGIKrT-SQu2z-6PQf7_vbSWhSCKsqjQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169975",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "18:00",
+                "timeto": "19:00",
+                "name": null,
+                "description": "Bianca S., Alex P., Davey M., Roy M.",
+                "comment": null,
+                "locationcode": "PADEL 1",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~FUybLQghhA-XiOB-a1dRbfd3kHTJY1hN05kak7ka-jJRItfaxjfISE9Ctp89vMOs6Yd-stsmpbiY1k7BcFz52KWPf-BfycvbGBQZZMapJd4TVSWIMdvE7tC02w00coxNKMEdjifJUzuluHvMvJrPlDkE9I75YQTlUg-Uy43VswcOorUdbFspGrYAITAEXKqIamxdAmvgRozJ_oUpZ5zt9Q\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170395",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "13:00",
+                "timeto": "14:00",
+                "name": null,
+                "description": "Astrid M., Alex D., Judith B., Paulette B.",
+                "comment": null,
+                "locationcode": "PADEL 1",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~Ok0mlQ_4cGwmKHPQbpXeWD9k2DRzFUVsFD1gfkJEKx_dHAYeI7l0CsldtHs_e-pgWG9sAvqwfydiOhqQ6Ia-qne6DRjo1Kzr9nVvhFCsjWMkfQhEoORciZc0nxCUSSvWFGVLBrBE7tvD1Bb_wujZVDQ0X4eTVcApbNhHqx1n4_PzB8_K4FaIvmofsABYwJKBs1O9Tb_GMhoMVzbb-ZpPlw\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170472",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "PADEL 2": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "09:00",
+                "timeto": "10:00",
+                "name": null,
+                "description": "Corien T., Jolijn D., Corry C., Monique H.",
+                "comment": null,
+                "locationcode": "PADEL 2",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~dtcbpyeEOFbzxo2SxAjXNCbNbqh-EdvWpz7IiS0NIHfr_IogWa8pCbPqWmau6rtPBt2A19vLVgXQOf6yl0JjNnQXazrKpDnrM11ij0-oOQJ0uOUlxjj4EoVtmC-oG0ZDSzJkzoQrIox6RR_YB4AYhuIEOj--KrX54BhJT5ZrrcjLrjkmJ62vsZRksMw_frhPbGroHrffSQxHorgboPEO_g\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169821",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "11:00",
+                "timeto": "12:00",
+                "name": null,
+                "description": "Annet F., Henny S., Leonie B., Wilma P.",
+                "comment": null,
+                "locationcode": "PADEL 2",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~ixs5jMczaKSborieCead1epr3rN7bMX-hCFiXcO4W_PD60jUkOcIel6mxkWEJ1QYVWxUG_75RPkIkt9kvUFWoA6k9HV1RAnjHVqc1ehuTKHnLUXGEjrmfMmOkw9m0ew0Vu4qSB9qA1WHWsJln29Mx_pSErPlc3EEVkNzqfWjE1jgK9G2Fht3y6Iyn8S5bvV72NHK1Y1yp52SXcaIA4wrig\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169843",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "17:00",
+                "timeto": "18:00",
+                "name": null,
+                "description": "Marcel Z., Lydia S., Sabine H., Arend-Jan S.",
+                "comment": null,
+                "locationcode": "PADEL 2",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~TDD3ouj-hokex8j6A81Clg9BogEzbBarGva3nhnqh_1PK3eIgjlbt9f_XPkmWMOVJCLVux9QLEFroo0gZU_4tkr4XK29e3K5e0vou9R81g0FzGfSgv7er-c2dzbOcL0GyfZRyGaAMpmu8ah9ifxOShGg4a508OJD5yDTtuWDMv4nO_rMgsuUYNGNochnASxMxxAClmULse49jZxohtoISQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169862",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "19:00",
+                "timeto": "20:00",
+                "name": null,
+                "description": "Leonie Q., Jan S., Reinout D., Soukja E.",
+                "comment": null,
+                "locationcode": "PADEL 2",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~8XDTR6OB8kx9Lmpewf0wSz2vhcJFy98u40FL5RoFbKWA_dz841MmnL7TabJATrfs0SGUyFnln2esrs_VJ4-jWLiLH7ioOagvasjxhg5jhRgXYjpVKZiK3hWOLhg6YN8VO8rGboiJ0bTlQDVd388il-YjX-2XTCtKNdrXyovAb89bvIW2b5yJSzsiEZofaA0p5U5rukLKt_7MzAXWWJzNGw\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169886",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "20:00",
+                "timeto": "21:00",
+                "name": null,
+                "description": "Lanny W., Martin H., Patrick B., Jeroen N.",
+                "comment": null,
+                "locationcode": "PADEL 2",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~B93iv6MVX-Rw03sFrxp8ftBX-6usH_rEIIz_rcfAYn3-637VGABM1jeMntA2sU8lbOJCPaqNEqxxJYMCxwwgzd7vmczB_gN_eiTVqs5D_c-bpOc66YKIRTXWH93ObkkXWZFGKD1SerIit83M4akYlzZIecJ2OC97YAKbWmPGqmJL9uAh38xC7HT7--GiPfXK6s4N11ejcrsX9z8GdtCpYg\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169949",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "21:00",
+                "timeto": "22:00",
+                "name": null,
+                "description": "Danny D., Rob B., Ronald S., Sander S.",
+                "comment": null,
+                "locationcode": "PADEL 2",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~logvbVvTOBZOA-XIlxfEeyw0MSEJ_Pfaprw3hkHx-YcuZRi1A3ctlD8DFi0hAXGr3Qr7zTzRqZt87VdW9R6Nrbjjsuvu7C9UwMswPsriZ93C6aSpahHUDiAtGfg5tkWU8BSOkh7gaFJ3_-w-vVKRnvDQLrvMUDb2EwtqB6ezqWhQ-sHpGPyJWRtjrKfqyYVyWxXwh98mvc2xIL_xVOXoGA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169980",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "18:00",
+                "timeto": "19:00",
+                "name": null,
+                "description": "Delano B., Milan H., Roy P., Wester H.",
+                "comment": null,
+                "locationcode": "PADEL 2",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~BqIiTDL-X6vTS4k3jm2CpXFx5sReUslbyu5X2aYR37TP6j4vHoc1X9QCWWbrJHuhVBDb7Vm2VkbfuWuTk_ARtAaqK5NKWR3SyR1-Gd1Xw0qaKKmX8eA6qLQr8P8GoHrh26R29fv9hH2ksR6Xr6m5QmlDxzSXR09_td8KKQo9twMSVtI0x2yyi79LgkaNcAyJaM5Lym7G14DDlvejuoqlxQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170416",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "PADEL 3": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "19:00",
+                "timeto": "21:00",
+                "name": null,
+                "description": "ReGu training",
+                "comment": null,
+                "locationcode": "PADEL 3",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~kSPNC7B1KpHKUXAR-1EsE5tdzvuIgj9BNWOpIHO9IptZuD_4ibcWd4EjwSZzy4OLHpNuM0h7N-n4gS6x2vtCzv8_NWMkdx9R9UhtUFUPo9Af_LYi2gIVx_6RwmDsuYA_IHhTeg9FYmZ9A6OyLqxY7-oJ1iGI8cG6yoyiY-V7l3JQp10M4uT7VYc5ujlKxuT9siYp_0B0x26dmQeI0pF5hA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169394",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "18:00",
+                "timeto": "19:00",
+                "name": null,
+                "description": "Romy S., Koen W., Heleen T., Brennain M.",
+                "comment": null,
+                "locationcode": "PADEL 3",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~MRHbqJWtkIVuF65sTuU9PRZnD2x5vZjEnF_I2QbZmKkuUFANzlwbcEEPxhsaob-OM1vUw09Iza3_RIZfh7vRNqMcNCUDItAvsCuyZaOlnsIEM6AZoNd6hARlNXiQvXJvu2xIdw2yqwaOkxjhd5O086iLCh56WhIEgsRzioR8o6D63P8YkYRNNm3aAnfw4lz5fDTGZamSBuj9FxtOoAyUNw\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170336",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "17:00",
+                "timeto": "18:00",
+                "name": null,
+                "description": "Esther V., Mari\u00eblle M., Alex V., Ren\u00e9 K.",
+                "comment": null,
+                "locationcode": "PADEL 3",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~BnP_qf25t9R-AgXNjEkbWvU9hMBCOBm47g42aoH0ueIih5O3f3AuC8AH5qAWvg2xV45PR69XCVGAA4vvRQFmftXCryjkwTjIqCKSpSQczMFuB8TK2Xh_tqXGN4wHbefVg8n7I1cqjIjKWXHCoFBbUns6RNK7ioa8oaoMIURTSv-_jPHm2YVhrXozqJmbJn9fIl_F7Kg-4ipHbTnJsG4hxQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170422",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "15:00",
+                "timeto": "16:00",
+                "name": null,
+                "description": "Bj\u00f6ren H., Delano H., Ferry R., Jack W.",
+                "comment": null,
+                "locationcode": "PADEL 3",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~De281k4D5MavXRr3h2SVBQ2nn0l6KRwMgz3OvHoSmV0wrSZY7GYQzw6j6xNWyGb7fhv_uLTKINZojzFXX6XZkx4KaalLijMmkKn2r7YT1bQZlCtNLpBY1e5u8PZKWQQysVSHvFjmTeReO1CGs7vQvCJU5VJNnGhPipQRBH1eUXs9uHXGGHzAOooSqbOu6cQrexnOHvu5a3S1yyOZ2h6tNw\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170485",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "21:00",
+                "timeto": "22:00",
+                "name": null,
+                "description": "Reza D., Luc S., Max Z., Bas K.",
+                "comment": null,
+                "locationcode": "PADEL 3",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~bzAoo5NbXobthfDYmnS6nVjmkvN_jC-6NcouusB8OL5G-6kpOJOrcfaemuUfaCCyZav9lZBrpdvDMOGygqFTmJ0ZwlvzXqpGBkdnUeUiU_q7_MBlOhTJJPVpr_G0IWmCz3AlvEtSDzxUwdFAJSirymBfZNZYLxPo-kKnhX11TV3-V3TxIZOQVgK4T6Ycplhr5M3xSbTLtuyzXzqacAkSrA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170513",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": "",
+                "hovertitle": "",
+                "namelist1": "",
+                "namelist2": ""
+            }
+        ],
+        "PADEL 4": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "19:00",
+                "timeto": "20:00",
+                "name": null,
+                "description": "KNLTB M&P",
+                "comment": null,
+                "locationcode": "PADEL 4",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~0r7LJt0d021PTQvNcxzqdBLK7WRTnoJLPFqaJN3cKpmaBgWNpojJ61Y3QzmJ_BZIifkvFPF2BXNqBt7WfYh4wuQPvHpyxZvxBi3iVMkZMalJDEIWtW69ouZMz4-R6cTkVzpMF2x7fY0TZvLCFVEzTJs87jC9S8lcZheq9x4q6LXqnnHAy-34s2xAESBsbKmPXPWfsj2_Tu8QQNMaCtbYZQ\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71167748",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "20:00",
+                "timeto": "21:00",
+                "name": null,
+                "description": "Betaalde reservering",
+                "comment": null,
+                "locationcode": "PADEL 4",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~UbzMZJNNL9VUSV10cUiH0XbDfjYP-aV90c-bjv1nn9MuWLj1ranoH-IihWZ4mtC-hTqblye4vmMqQug-XiSv1EApSjPMAJAo9IjF6eJSTdKXHx_NhClW_QgnXnJ4H7T43U0GP2PtnOP7zH0khttaUwdCq3MDSa8-HCFSN2Q-YVsFsfhVwbXR7unIwoNny1fe0WGchqZUSHJJQwoIJ2ZckA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71167774",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "16:00",
+                "timeto": "17:00",
+                "name": null,
+                "description": "KNLTB M&P",
+                "comment": null,
+                "locationcode": "PADEL 4",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~L0ajBP6tvo1H1_hY-ZLmjpcGb0svJFhEgTcfgpNGj93aJ1iOB-fivz35lgTO8zVIKwGjB4FpnvjQoWxibHnglEuIqwy8sqrh-QNRur4Mm1hFOVds3Iwj20e9TgbH_K4VNHSmxEcYIoaaBcEWxa1o8rMDwHLYsszA2FhOWXhdjfvy2AD0C2kPXinQ7DxlNvIcWJFIAn_wNfuQq8UK6uejsA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169258",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "19:00",
+                "timeto": "22:00",
+                "name": null,
+                "description": "ReGu training",
+                "comment": null,
+                "locationcode": "PADEL 4",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~P5_-5BfXcoWn7-bTMDvqPc7H9apcb3J-XlAPP8vPGAj5xDjxonFC9P6EIW4XmgbgZsc_gEVwmxTQ-t_RUiyAwJIQEScLEdxShdSG9HwAFkWo4M7-7QVmN0BD6FFoBtE-fhUE8dtEB0XwedFcFy-5av88hCXw-WhY_chVcpY5JpCtUyTV3ewIuNcuCUjSTKDNAH7GgLyxITgaAjI-6qhUbA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169285",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "18:00",
+                "timeto": "19:00",
+                "name": null,
+                "description": "KNLTB M&P",
+                "comment": null,
+                "locationcode": "PADEL 4",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~IXUj-EXE9iivfg3p8NUOIPGna0i2HknEPS3xeGmxS1ESrsfENvRXQs8JE_JU4W1Dwxa5AOsgnrHOm7sT4vav37pVcgua-UNDrayyA0MGiqreqfi7hTT2zvsqJokjrIBmoo4YWtcNyn8jNcA6YgETGwNBz2CspK93IuXSLE58X_USKGPaPALlXPzjI_-J-cmuXr2AJG8JjqS__dwze-Hjhg\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170498",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            }
+        ],
+        "PADEL 5": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "20:00",
+                "timeto": "21:00",
+                "name": null,
+                "description": "Betaalde reservering",
+                "comment": null,
+                "locationcode": "PADEL 5",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~bV3dFXuGdoOqs2wMisuUP--B9nuttaqtm6uIsX42tGEem-jMDU-9eZMu3HEQc3UTWNpvfT9DAXfDQ4kxjbrZkXCy5tXFuyq5FF2HmLwnKNAfWuie_mXeQFzMh2hHuCJ3vFVGiKcgILj7W--tb6NDTT9bH52Rt7xvJIvwV-YLJbrvI1j-le8iBg36YXQ50Dux-n2yAwXB2IBZmm_ajQBg_w\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71167799",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "21:00",
+                "timeto": "22:00",
+                "name": null,
+                "description": "Betaalde reservering",
+                "comment": null,
+                "locationcode": "PADEL 5",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~G7kuPccMGgE4q9_q9tENt5NnMIXy2G_celJTNS0Ar1S_q-r44UKr-hkH9FPV6uJvl1puxELwuTYluqetDJmvPaShm8w_4OuIefKOtFBVb6NlpxISzCamTUA3zbL-f8ZJRR4dLNYIVjPNnV7k4v058G5s-ycL1fUC_MkJDfvpiVrRgmUkTJJQlftGtpA0lODafCsT3cXI5traQQqf7ya_JA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71167922",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "19:00",
+                "timeto": "20:00",
+                "name": null,
+                "description": "KNLTB M&P",
+                "comment": null,
+                "locationcode": "PADEL 5",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~FpSsjUupUOMaOhbKTV6bsWaynDJixvYQ4CA04LQ0vTv-P2aR6z5QEdwyJFD3AOadCvJhc04y_SaHLzJQFhfOlRJnhuAmck0tyS0b85ZhkNTLn3Ak-LLNOsMyBewR4FNMKonrLpco19e5zhgeMvYyiR_URwcnDZc1M82d66tGRGTujhbZZrTPMmmNs4NwM8LLyP7F1odcQh7cNft-_LBzkA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71167938",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "18:00",
+                "timeto": "19:00",
+                "name": null,
+                "description": "Betaalde reservering",
+                "comment": null,
+                "locationcode": "PADEL 5",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~eX0hahaMz9YiBu-yNWtMpW2W3WwB0ntUHglyJ-RTVuxlEUwGO41AbQOe-Kwwhsk4UPOzd9bgE-lP53l2LXSq1nnFHK4ZuuMFrX5y-g-HRBrBKgA_xvr7WvFAkFhs3o5IMNFpaSUYyOnw_BwLfJdlgjytZEM7y3g7I1YITbPi_Xa4nCBel7pV7HTmXJzV6SuLT96TT2OvN6XYzPvQ3gENvA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71169211",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            }
+        ],
+        "PADEL 6": [
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "19:00",
+                "timeto": "20:00",
+                "name": null,
+                "description": "KNLTB M&P",
+                "comment": null,
+                "locationcode": "PADEL 6",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~zowDv75r8v3MtflKz4sSa739_IMgNZfDnpdS6pG7t2I0EZWdVDOSr-cB3zxyrWY0zoLM3m2a3eAdBDG6k2zcXnDao3xKMtHIQN08-PVUJDiChwvJ8a59mewBnfG77OxL1UaJSXI6gf765T5oFVX587jEtxyb--ICkOJ0cM1jTqpvOBqQlqyxOWDibY_oHkJhxaq9L70-DVqBGeGXTKocAA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71168072",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "16:00",
+                "timeto": "17:00",
+                "name": null,
+                "description": "KNLTB M&P",
+                "comment": null,
+                "locationcode": "PADEL 6",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~AuBMX7txwwI9X9QSEbYFv9OoigVHQYP3whctaNtEdn9O5oWIBQxaflBtTKvPEydhOk9L5XQ8LKBHmG_fnLaUIMHwLfOb0_ZT9iUHeILH9TWppiR9pdkibG_eCs6Nz9KyvQKZwWN-4n1k1iaggPqAk5eH3hSLDRZCI74JMHUPa8NtsA5uzDVxxZv0L99fn5YPHUcoqx4vbJGOh9rgUP22vg\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170380",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "18:00",
+                "timeto": "19:00",
+                "name": null,
+                "description": "Betaalde reservering",
+                "comment": null,
+                "locationcode": "PADEL 6",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~GKSG7xPjlzz552qCqw6XYWN2p_qEm1qFPR38Tthq_x0JoBYy00CCqAuSJ4MiEX72jVmjv6byElQZVLC2pgEZ-SThTWjPkOtxrMy0cSunSx3yEUkyHha2Rkhiq0napgjwjdFmf7hzXU2p4o4mW-9EwRExSuibJKRSK-kDxaOMRleyKh-c9BaH2IgmTXetg3fVsmn13irYTYR2jf2H2CB3sA\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170399",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            },
+            {
+                "datefrom": "2025-04-01",
+                "dateto": "2025-04-01",
+                "timefrom": "20:00",
+                "timeto": "21:00",
+                "name": null,
+                "description": "KNLTB M&P",
+                "comment": null,
+                "locationcode": "PADEL 6",
+                "sublocation": null,
+                "subSize": null,
+                "type": "reservation",
+                "link": {
+                    "href": null,
+                    "onclick": "sendForm(event, \"NULL\", \"\", \"au-nav~OgbSRMRbtiL5q5i-I7UUezFtOV9QyA4pORZJ4sPRK0ZGOcFDNUUX_EEKLfpKmr1RoTY2Q8BMOjwRkFlLYrcRQ2u-bpjaw3l9-fnZgrwTfYma8y6WdtKpVDxp7kmEPAPduKDU3aJ2zSAvhxCJ23d9aoG739PUa41MXAyrNvOn2TXdsJO9Q9ZSH3obtAOPIipYAnd9xTONxJ-tD1Oo7WSXcw\", \"\");"
+                },
+                "color": null,
+                "reservationId": "71170511",
+                "eventid": null,
+                "activitycode": null,
+                "warning": false,
+                "warningMessage": {
+                    "time": null,
+                    "locationcode": null
+                },
+                "title": null,
+                "hovertitle": null,
+                "namelist1": null,
+                "namelist2": null
+            }
+        ]
+    },
+    [
+        {
+            "group": "GRV",
+            "code": "BAAN01",
+            "name": "Baan 1",
+            "class": "BAAN01",
+            "sublocations": null,
+            "starttime": "08:15",
+            "endtime": [
+                "08:15",
+                "23:15"
+            ]
+        },
+        {
+            "group": "GRV",
+            "code": "BAAN02",
+            "name": "Baan 2",
+            "class": "BAAN02",
+            "sublocations": null,
+            "starttime": "08:15",
+            "endtime": [
+                "08:15",
+                "23:15"
+            ]
+        },
+        {
+            "group": "GRV",
+            "code": "BAAN03",
+            "name": "Baan 3",
+            "class": "BAAN03",
+            "sublocations": null,
+            "starttime": "08:15",
+            "endtime": [
+                "08:15",
+                "23:15"
+            ]
+        },
+        {
+            "group": "GRV",
+            "code": "BAAN04",
+            "name": "Baan 4",
+            "class": "BAAN04",
+            "sublocations": null,
+            "starttime": "08:15",
+            "endtime": [
+                "08:15",
+                "23:15"
+            ]
+        },
+        {
+            "group": "GRV",
+            "code": "BAAN05",
+            "name": "Baan 5",
+            "class": "BAAN05",
+            "sublocations": null,
+            "starttime": "08:15",
+            "endtime": [
+                "08:15",
+                "23:15"
+            ]
+        },
+        {
+            "group": "GRV",
+            "code": "BAAN06",
+            "name": "Baan 6",
+            "class": "BAAN06",
+            "sublocations": null,
+            "starttime": "08:15",
+            "endtime": [
+                "08:15",
+                "23:15"
+            ]
+        },
+        {
+            "group": "GRV",
+            "code": "BAAN07",
+            "name": "Baan 7",
+            "class": "BAAN07",
+            "sublocations": null,
+            "starttime": "08:00",
+            "endtime": [
+                "08:00",
+                "23:00"
+            ]
+        },
+        {
+            "group": "GRV",
+            "code": "BAAN08",
+            "name": "Baan 8",
+            "class": "BAAN08",
+            "sublocations": null,
+            "starttime": "08:00",
+            "endtime": [
+                "08:00",
+                "23:00"
+            ]
+        },
+        {
+            "group": "GRV",
+            "code": "BAAN09",
+            "name": "Baan 9",
+            "class": "BAAN09",
+            "sublocations": null,
+            "starttime": "08:00",
+            "endtime": [
+                "08:00",
+                "23:00"
+            ]
+        },
+        {
+            "group": "GRV",
+            "code": "BAAN10",
+            "name": "Baan 10",
+            "class": "BAAN10",
+            "sublocations": null,
+            "starttime": "08:00",
+            "endtime": [
+                "08:00",
+                "23:00"
+            ]
+        },
+        {
+            "group": "GRV",
+            "code": "BAAN11",
+            "name": "Baan 11",
+            "class": "BAAN11",
+            "sublocations": null,
+            "starttime": "08:00",
+            "endtime": [
+                "08:00",
+                "23:00"
+            ]
+        },
+        {
+            "group": "GRV",
+            "code": "BAAN12",
+            "name": "Baan 12",
+            "class": "BAAN12",
+            "sublocations": null,
+            "starttime": "07:45",
+            "endtime": [
+                "07:45",
+                "22:30"
+            ]
+        },
+        {
+            "group": "GRV",
+            "code": "BAAN13",
+            "name": "Baan 13",
+            "class": "BAAN13",
+            "sublocations": null,
+            "starttime": "07:45",
+            "endtime": [
+                "07:45",
+                "22:30"
+            ]
+        },
+        {
+            "group": "GRV",
+            "code": "BAAN14",
+            "name": "Baan 14",
+            "class": "BAAN14",
+            "sublocations": null,
+            "starttime": "07:45",
+            "endtime": [
+                "07:45",
+                "22:30"
+            ]
+        },
+        {
+            "group": "SMC",
+            "code": "BAAN15",
+            "name": "Baan 15",
+            "class": "BAAN15",
+            "sublocations": null,
+            "starttime": "07:45",
+            "endtime": [
+                "07:45",
+                "22:45"
+            ]
+        },
+        {
+            "group": "SMC",
+            "code": "BAAN16",
+            "name": "Baan 16",
+            "class": "BAAN16",
+            "sublocations": null,
+            "starttime": "07:45",
+            "endtime": [
+                "07:45",
+                "22:45"
+            ]
+        },
+        {
+            "group": "SMC",
+            "code": "BAAN17",
+            "name": "Baan 17",
+            "class": "BAAN17",
+            "sublocations": null,
+            "starttime": "07:45",
+            "endtime": [
+                "07:45",
+                "22:45"
+            ]
+        },
+        {
+            "group": "SMC",
+            "code": "BAAN18",
+            "name": "Baan 18",
+            "class": "BAAN18",
+            "sublocations": null,
+            "starttime": "07:45",
+            "endtime": [
+                "07:45",
+                "22:45"
+            ]
+        },
+        {
+            "group": "PAD",
+            "code": "PADEL 1",
+            "name": "Padel baan 1",
+            "class": "PADEL-1",
+            "sublocations": null,
+            "starttime": "08:00",
+            "endtime": [
+                "19:00",
+                "23:00"
+            ]
+        },
+        {
+            "group": "PAD",
+            "code": "PADEL 2",
+            "name": "Padel baan 2",
+            "class": "PADEL-2",
+            "sublocations": null,
+            "starttime": "08:00",
+            "endtime": [
+                "19:00",
+                "23:00"
+            ]
+        },
+        {
+            "group": "PAD",
+            "code": "PADEL 3",
+            "name": "Padel baan 3",
+            "class": "PADEL-3",
+            "sublocations": null,
+            "starttime": "08:00",
+            "endtime": [
+                "19:00",
+                "23:00"
+            ]
+        },
+        {
+            "group": "PAD",
+            "code": "PADEL 4",
+            "name": "Padel baan 4",
+            "class": "PADEL-4",
+            "sublocations": null,
+            "starttime": "08:00",
+            "endtime": [
+                "08:00",
+                "23:00"
+            ]
+        },
+        {
+            "group": "PAD",
+            "code": "PADEL 5",
+            "name": "Padel baan 5",
+            "class": "PADEL-5",
+            "sublocations": null,
+            "starttime": "08:00",
+            "endtime": [
+                "08:00",
+                "23:00"
+            ]
+        },
+        {
+            "group": "PAD",
+            "code": "PADEL 6",
+            "name": "Padel baan 6",
+            "class": "PADEL-6",
+            "sublocations": null,
+            "starttime": "08:00",
+            "endtime": [
+                "08:00",
+                "23:00"
+            ]
+        },
+        {
+            "group": "BIN",
+            "code": "HAL1",
+            "name": "Hal tennisbaan 1",
+            "class": "HAL1",
+            "sublocations": null,
+            "starttime": "09:00",
+            "endtime": [
+                "09:00",
+                "23:00"
+            ]
+        },
+        {
+            "group": "BIN",
+            "code": "HAL2",
+            "name": "Hal tennisbaan 2",
+            "class": "HAL2",
+            "sublocations": null,
+            "starttime": "09:00",
+            "endtime": [
+                "09:00",
+                "23:00"
+            ]
+        },
+        {
+            "group": "BIN",
+            "code": "HAL3",
+            "name": "Hal tennisbaan 3",
+            "class": "HAL3",
+            "sublocations": null,
+            "starttime": "09:00",
+            "endtime": [
+                "09:00",
+                "23:00"
+            ]
+        },
+        {
+            "group": "BIN",
+            "code": "HAL4",
+            "name": "Hal tennisbaan 4",
+            "class": "HAL4",
+            "sublocations": null,
+            "starttime": "09:00",
+            "endtime": [
+                "09:00",
+                "23:00"
+            ]
+        },
+        {
+            "group": "BIN",
+            "code": "HAL5",
+            "name": "Hal tennisbaan 5",
+            "class": "HAL5",
+            "sublocations": null,
+            "starttime": "09:00",
+            "endtime": [
+                "09:00",
+                "23:00"
+            ]
+        }
+    ],
+    {
+        "other": {
+            "label": "Anders",
+            "singular": "Anders",
+            "color": "#696668"
+        },
+        "reservation": {
+            "label": "Reserveringen",
+            "singular": "Reservering",
+            "color": "#fa7c29"
+        },
+        "calendar": {
+            "label": "Agenda",
+            "singular": "Agenda",
+            "color": "#c50bff"
+        },
+        "event": {
+            "label": "Wedstrijden",
+            "singular": "Wedstrijd",
+            "color": "#85a8e8"
+        },
+        "training": {
+            "label": "Trainingen",
+            "singular": "Training",
+            "color": "#f76363"
+        },
+        "course": {
+            "label": "Les\/Evenement",
+            "singular": "Les\/Evenement",
+            "color": "#63f7f7"
+        },
+        "eventfunc": {
+            "label": "Diensten",
+            "singular": "Dienst",
+            "color": "#2990fa"
+        },
+        "lockerroom": {
+            "label": "Kleedkamers",
+            "singular": "Kleedkamer",
+            "color": "#ef2020"
+        }
+    },
+    {
+        "activeHighlights": null,
+        "ajaxUrl": "\/_ajax.php?customObject=PlanningBoard2&sessionid=150321552067ec19b311d5a",
+        "allowDoubleBookings": true,
+        "dailyDivisionsSize": null,
+        "date": "2025-04-01",
+        "defaultZoom": "2",
+        "draggableTypes": null,
+        "informationPanel": false,
+        "latestTime": null,
+        "orientation": "horizontal",
+        "scrollTimeActual": null,
+        "scrollTimeStart": "09:00",
+        "singleColor": true,
+        "unallocatedSubLocations": null,
+        "viewOnlyMode": null,
+        "allowCustomColors": null,
+        "timelineStartTime": null,
+        "timelineEndTime": null,
+        "minuteDivisionTime": null,
+        "useProvisional": null,
+        "textMessages": {
+            "errors": {
+                "noLocation": {
+                    "error": "Accommodatie gesloten",
+                    "short": " ",
+                    "long": "Voor vragen neem contact op met onze baanbeheerder"
+                }
+            }
+        },
+        "isWebsite": true
+    }
+]
