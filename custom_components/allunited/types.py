@@ -8,9 +8,9 @@ type AllUnitedConfigEntry = ConfigEntry[AllUnitedCoordinator]
 
 
 @dataclass
-class AllUnitedEvent:
-    """Event based on AllUnited Planningboard"""
+class AllUnitedReservation:
+    """Reservation based on AllUnited Planningboard"""
     reservation_id: str
-    description: str
-    start_time: datetime
-    end_time: datetime
+    location: str
+    start: datetime
+    end: datetime

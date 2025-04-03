@@ -1,11 +1,9 @@
 
 import logging
-from datetime import datetime, timedelta
+from datetime import datetime
 import pprint
-from typing import Any
 
 from homeassistant.core import HomeAssistant, callback
-from homeassistant.config_entries import ConfigEntry
 from homeassistant.components.calendar import (
     CalendarEntity,
     CalendarEvent,
@@ -16,10 +14,10 @@ from homeassistant.helpers.update_coordinator import (
     CoordinatorEntity,
 )
 
+from .const import DOMAIN, CONF_CALENDAR_NAME
+from .types import AllUnitedConfigEntry, AllUnitedReservation
 from .coordinator import AllUnitedCoordinator
 
-from .const import DOMAIN, CONF_CALENDAR_NAME
-from .types import AllUnitedConfigEntry
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -78,9 +76,11 @@ class AllUnitedCalendarEntity(CoordinatorEntity[AllUnitedCoordinator], CalendarE
 
         _LOGGER.debug("Updating Allunited Calendar")
 
-        events = self.coordinator.data
+        reservations: list[AllUnitedReservation] = self.coordinator.data
 
-        self._event = next(iter(events), None)
+        next_reservation = next(iter(reservations), None)
+        next_event = self.create_calendar_event(next_reservation)
+        self._event = next_event
 
     async def async_get_events(
         self, hass: HomeAssistant, start_date: datetime, end_date: datetime
@@ -89,6 +89,20 @@ class AllUnitedCalendarEntity(CoordinatorEntity[AllUnitedCoordinator], CalendarE
 
         _LOGGER.debug("Getting events")
 
-        events = self.coordinator.data
+        reservations: list[AllUnitedReservation] = self.coordinator.data
+        events: list[CalendarEvent] = []
+
+        for reservation in reservations:
+            event = self.create_calendar_event(reservation)
+            events.append(event)
 
         return events
+
+    def create_calendar_event(self, reservation: AllUnitedReservation) -> CalendarEvent:
+        event = CalendarEvent(
+            start=reservation.start,
+            end=reservation.end,
+            summary=reservation.location,
+            uid=reservation.reservation_id
+        )
+        return event

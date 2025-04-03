@@ -1,24 +1,20 @@
 import logging
 from datetime import timedelta
+from pathlib import Path
 import async_timeout
 
-from homeassistant.exceptions import ConfigEntryAuthFailed
 from homeassistant.helpers.update_coordinator import (
     DataUpdateCoordinator,
     UpdateFailed
-)
-from homeassistant.util import dt as dt_util
-from homeassistant.components.calendar import (
-    CalendarEvent,
 )
 
 _LOGGER = logging.getLogger(__name__)
 
 
-class AllUnitedCoordinator(DataUpdateCoordinator[CalendarEvent]):
+class AllUnitedCoordinator(DataUpdateCoordinator):
     """AllUnited update coordinator."""
 
-    def __init__(self, hass, config_entry):
+    def __init__(self, hass, config_entry, allunited_api):
         """Initialize my coordinator."""
         super().__init__(
             hass,
@@ -28,10 +24,7 @@ class AllUnitedCoordinator(DataUpdateCoordinator[CalendarEvent]):
             update_interval=timedelta(seconds=30),
             always_update=True  # False if __eq__ is available
         )
-
-        # TODO: my_api thingy with url?
-        # self.my_api = my_api
-        # self._device: MyDevice | None = None
+        self.api = allunited_api
 
     async def _async_setup(self):
         """Set up Coordinator, called from async_config_entry_first_refresh()"""
@@ -47,19 +40,13 @@ class AllUnitedCoordinator(DataUpdateCoordinator[CalendarEvent]):
             # Note: asyncio.TimeoutError and aiohttp.ClientError are already
             # handled by the data update coordinator.
             async with async_timeout.timeout(10):
-                now = dt_util.now()
-                sample_event1: CalendarEvent = CalendarEvent(
-                    start=now,
-                    end=now + timedelta(hours=1),
-                    summary="Testing 1"
-                )
-                sample_event2: CalendarEvent = CalendarEvent(
-                    start=now,
-                    end=now + timedelta(hours=1),
-                    summary="Testing 2"
-                )
+                path = Path(__file__).parent / "examples" / "example.html"
+                html = path.read_text(encoding="utf-8")
 
-                return [sample_event1, sample_event2]
+                json = self.api._parse_html(html)
+                test = self.api._parse_events(json)
+
+                return test
 
         # except ApiAuthError as err:
             # Raising ConfigEntryAuthFailed will cancel future updates

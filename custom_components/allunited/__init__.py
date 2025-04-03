@@ -11,6 +11,7 @@ from homeassistant.config_entries import ConfigEntry
 
 from .const import DOMAIN
 from .coordinator import AllUnitedCoordinator
+from .allunited_api import AllUnitedApi
 
 CONFIG_SCHEMA = vol.Schema({vol.Optional(DOMAIN): {}}, extra=vol.ALLOW_EXTRA)
 
@@ -28,8 +29,9 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     hass.data[DOMAIN][entry.entry_id] = entry.data
 
     # TODO: Where to configure API / URL thingy? __init__.py can store it in hass.data apparently..
-
-    coordinator = AllUnitedCoordinator(hass, config_entry=entry)
+    allunited_api = AllUnitedApi()
+    coordinator = AllUnitedCoordinator(
+        hass, config_entry=entry, allunited_api=allunited_api)
     entry.runtime_data = coordinator
 
     # Fetch initial data so we have data when entities subscribe
