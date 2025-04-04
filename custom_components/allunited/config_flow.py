@@ -6,7 +6,8 @@ from homeassistant.config_entries import ConfigFlow, ConfigEntry, ConfigSubentry
 from homeassistant.helpers.selector import (
     SelectSelector,
     SelectSelectorConfig,
-    SelectSelectorMode
+    SelectSelectorMode,
+    SelectOptionDict
 )
 
 from .const import CONF_CALENDAR_COURTS, DOMAIN, CONF_CALENDAR_NAME, CONF_CALENDAR_URL
@@ -61,13 +62,18 @@ class CalendarSubentryFlowHandler(ConfigSubentryFlow):
         coordinator = configuration_data.coordinator
         data: AllUnitedReservationsData = coordinator.data
 
+        options: list[SelectOptionDict] = []
+        for court in data.courts:
+            option = SelectOptionDict(label=court.name, value=court.id)
+            options.append(option)
+
         data_schema = vol.Schema({
             vol.Required(CONF_CALENDAR_NAME): str,
             vol.Required(CONF_CALENDAR_COURTS): SelectSelector(
                 config=SelectSelectorConfig(
                     multiple=True,
                     mode=SelectSelectorMode.LIST,
-                    options=data.courts,
+                    options=options,
                 ),
             ),
         })

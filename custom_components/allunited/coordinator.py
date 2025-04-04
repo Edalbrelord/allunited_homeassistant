@@ -45,11 +45,13 @@ class AllUnitedCoordinator(DataUpdateCoordinator):
                 path = Path(__file__).parent / "examples" / "example.html"
                 html = path.read_text(encoding="utf-8")
 
-                json = self.api._parse_html(html)
-                reservations = self.api._parse_events(json)
+                (json_reservations, json_courts) = self.api._parse_html(html)
+
+                reservations = self.api._parse_events(json_reservations)
+                courts = self.api._parse_courts(json_courts)
 
                 data = AllUnitedReservationsData(
-                    courts=["BAAN01", "BAAN02", "BAAN03"],
+                    courts=courts,
                     reservations=reservations
                 )
 

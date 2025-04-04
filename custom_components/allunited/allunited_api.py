@@ -3,7 +3,7 @@ from dateutil import parser
 import json
 import re
 
-from .types import AllUnitedReservation
+from .types import AllUnitedReservation, AllUnitedCourt
 
 
 class AllUnitedApi:
@@ -32,7 +32,10 @@ class AllUnitedApi:
         reservations_json = match.group(1)
         reservations = json.loads(reservations_json)
 
-        return reservations
+        courts_json = match.group(2)
+        courts = json.loads(courts_json)
+
+        return (reservations, courts)
 
     def _parse_events(self, json) -> list[AllUnitedReservation]:
         """Creates AllUnitedEvents from the json data"""
@@ -62,3 +65,17 @@ class AllUnitedApi:
                 reservations.append(reservation)
 
         return reservations
+
+    def _parse_courts(self, json) -> list[AllUnitedCourt]:
+        """Creates AllUnitedCourts from json data"""
+        courts: list[AllUnitedCourt] = []
+
+        for json_court in json:
+            court = AllUnitedCourt(
+                id=json_court["code"],
+                name=json_court["name"],
+                type=json_court["group"]
+            )
+            courts.append(court)
+
+        return courts
