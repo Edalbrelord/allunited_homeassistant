@@ -8,6 +8,8 @@ from homeassistant.helpers.update_coordinator import (
     UpdateFailed
 )
 
+from .types import AllUnitedReservationsData
+
 _LOGGER = logging.getLogger(__name__)
 
 
@@ -32,7 +34,7 @@ class AllUnitedCoordinator(DataUpdateCoordinator):
     async def _async_update_data(self):
         """Fetch data from the endpoint
 
-        Data will be saved in lookup tables and is available from coordinator.data[]?
+        Data will be saved in lookup tables and is available from coordinator.data
         """
 
         _LOGGER.debug("Fetching data")
@@ -44,9 +46,14 @@ class AllUnitedCoordinator(DataUpdateCoordinator):
                 html = path.read_text(encoding="utf-8")
 
                 json = self.api._parse_html(html)
-                test = self.api._parse_events(json)
+                reservations = self.api._parse_events(json)
 
-                return test
+                data = AllUnitedReservationsData(
+                    courts=["BAAN01", "BAAN02", "BAAN03"],
+                    reservations=reservations
+                )
+
+                return data
 
         # except ApiAuthError as err:
             # Raising ConfigEntryAuthFailed will cancel future updates

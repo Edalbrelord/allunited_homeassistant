@@ -10,6 +10,7 @@ from homeassistant.helpers.selector import (
 )
 
 from .const import CONF_CALENDAR_COURTS, DOMAIN, CONF_CALENDAR_NAME, CONF_CALENDAR_URL
+from .types import AllUnitedReservationsData
 
 
 class AllunitedConfigFlow(ConfigFlow, domain=DOMAIN):
@@ -54,11 +55,21 @@ class CalendarSubentryFlowHandler(ConfigSubentryFlow):
     async def async_step_user(
         self, user_input
     ) -> SubentryFlowResult:
-        """User flow to add a new calendar."""
+        """User flow to add a new calendar for a group of courts."""
+
+        configuration_data = self.hass.data[DOMAIN][self._entry_id]
+        coordinator = configuration_data.coordinator
+        data: AllUnitedReservationsData = coordinator.data
 
         data_schema = vol.Schema({
             vol.Required(CONF_CALENDAR_NAME): str,
-            vol.Required(CONF_CALENDAR_COURTS): SelectSelector(config=SelectSelectorConfig(multiple=True, mode=SelectSelectorMode.LIST, options=["BAAN01", "BAAN02"]))
+            vol.Required(CONF_CALENDAR_COURTS): SelectSelector(
+                config=SelectSelectorConfig(
+                    multiple=True,
+                    mode=SelectSelectorMode.LIST,
+                    options=data.courts,
+                ),
+            ),
         })
 
         if user_input is not None:

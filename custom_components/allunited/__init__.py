@@ -1,6 +1,7 @@
 """The AllUnited integration."""
 
 from __future__ import annotations
+from dataclasses import dataclass
 import logging
 
 import voluptuous as vol
@@ -10,13 +11,20 @@ from homeassistant.const import Platform
 from homeassistant.helpers.typing import ConfigType
 from homeassistant.config_entries import ConfigEntry
 
-from .const import DOMAIN
+from .const import DOMAIN, CONF_CALENDAR_URL
 from .coordinator import AllUnitedCoordinator
 from .allunited_api import AllUnitedApi
 
 CONFIG_SCHEMA = vol.Schema({vol.Optional(DOMAIN): {}}, extra=vol.ALLOW_EXTRA)
 
 _LOGGER = logging.getLogger(__name__)
+
+
+@dataclass
+class AllUnitedConfigurationData:
+    """Configuration data set for AllUnited Integration"""
+    coordinator: AllUnitedCoordinator
+    url: str
 
 
 async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
@@ -29,13 +37,19 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     """Set up AllUnited from a config entry."""
 
     # Store config entry data
-    hass.data[DOMAIN][entry.entry_id] = entry.data
+    # hass.data[DOMAIN][entry.entry_id] = entry.data
 
     # TODO: Where to configure API / URL thingy? __init__.py can store it in hass.data apparently..
     allunited_api = AllUnitedApi()
     coordinator = AllUnitedCoordinator(
         hass, config_entry=entry, allunited_api=allunited_api)
     entry.runtime_data = coordinator
+
+    configuration_data = AllUnitedConfigurationData(
+        url=entry.data[CONF_CALENDAR_URL],
+        coordinator=coordinator
+    )
+    hass.data[DOMAIN][entry.entry_id] = configuration_data
 
     # Fetch initial data so we have data when entities subscribe
     await coordinator.async_config_entry_first_refresh()

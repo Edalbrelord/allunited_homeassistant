@@ -15,16 +15,15 @@ from homeassistant.helpers.update_coordinator import (
 )
 
 from .const import DOMAIN, CONF_CALENDAR_NAME
-from .types import AllUnitedConfigEntry, AllUnitedReservation
+from .types import AllUnitedReservation, AllUnitedReservationsData
 from .coordinator import AllUnitedCoordinator
-
 
 _LOGGER = logging.getLogger(__name__)
 
 
 async def async_setup_entry(
     hass: HomeAssistant,
-    config_entry: AllUnitedConfigEntry,
+    config_entry,
     async_add_entities: AddConfigEntryEntitiesCallback,
 ) -> None:
     """Set up the AllUnited calendar platform."""
@@ -76,7 +75,8 @@ class AllUnitedCalendarEntity(CoordinatorEntity[AllUnitedCoordinator], CalendarE
 
         _LOGGER.debug("Updating Allunited Calendar")
 
-        reservations: list[AllUnitedReservation] = self.coordinator.data
+        data: AllUnitedReservationsData = self.coordinator.data
+        reservations: list[AllUnitedReservation] = data.reservations
 
         next_reservation = next(iter(reservations), None)
         next_event = self.create_calendar_event(next_reservation)

@@ -1,10 +1,5 @@
 from dataclasses import dataclass
 from datetime import datetime
-from homeassistant.config_entries import ConfigEntry
-
-from .coordinator import AllUnitedCoordinator
-
-type AllUnitedConfigEntry = ConfigEntry[AllUnitedCoordinator]
 
 
 @dataclass
@@ -14,3 +9,9 @@ class AllUnitedReservation:
     location: str
     start: datetime
     end: datetime
+
+
+@dataclass
+class AllUnitedReservationsData:
+    courts: list[str]
+    reservations: list[AllUnitedReservation]
