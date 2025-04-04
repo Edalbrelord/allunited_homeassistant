@@ -56,7 +56,10 @@ class CalendarSubentryFlowHandler(ConfigSubentryFlow):
     async def async_step_user(
         self, user_input
     ) -> SubentryFlowResult:
-        """User flow to add a new calendar for a group of courts."""
+        """User flow to add a new calendar for a group of courts.
+
+        When a subentry is saved, reload the integration to trigger the setup again.
+        """
 
         configuration_data = self.hass.data[DOMAIN][self._entry_id]
         coordinator = configuration_data.coordinator
@@ -79,8 +82,6 @@ class CalendarSubentryFlowHandler(ConfigSubentryFlow):
         })
 
         if user_input is not None:
-            # entry = await self.async_get_entry()
-            # subentry = self._get_reconfigure_subentry()
             return self.async_create_entry(
                 title=f"AllUnited - {user_input[CONF_CALENDAR_NAME]}",
                 data={
