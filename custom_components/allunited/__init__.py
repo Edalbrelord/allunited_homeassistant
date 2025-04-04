@@ -1,6 +1,7 @@
 """The AllUnited integration."""
 
 from __future__ import annotations
+import logging
 
 import voluptuous as vol
 
@@ -14,6 +15,8 @@ from .coordinator import AllUnitedCoordinator
 from .allunited_api import AllUnitedApi
 
 CONFIG_SCHEMA = vol.Schema({vol.Optional(DOMAIN): {}}, extra=vol.ALLOW_EXTRA)
+
+_LOGGER = logging.getLogger(__name__)
 
 
 async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
@@ -40,6 +43,12 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     # Forward the setup to the sensor platform
     await hass.config_entries.async_forward_entry_setups(entry, [Platform.CALENDAR])
     return True
+
+
+async def async_migrate_entry(hass, config_entry: ConfigEntry):
+    """Migrate old entry."""
+    _LOGGER.debug("Migrating configuration from version %s.%s",
+                  config_entry.version, config_entry.minor_version)
 
 
 async def async_unload_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:

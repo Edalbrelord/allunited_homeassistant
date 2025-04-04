@@ -1,10 +1,6 @@
-import asyncio
-import datetime
 from dateutil import parser
-from dateutil import tz
 
 import json
-from pathlib import Path
 import re
 
 from .types import AllUnitedReservation
@@ -57,7 +53,6 @@ class AllUnitedApi:
                     end_raw, yearfirst=True, tzinfos=timezones
                 )
 
-                # TODO: AllUnitedReservation type, parse to calendarEvent in Coordinator or Calendar
                 reservation = AllUnitedReservation(
                     reservation_id=reservation_raw["reservationId"],
                     location=reservation_raw["locationcode"],

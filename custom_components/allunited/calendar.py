@@ -60,8 +60,8 @@ class AllUnitedCalendarEntity(CoordinatorEntity[AllUnitedCoordinator], CalendarE
     def _handle_coordinator_update(self) -> None:
         """Handle updated data from the coordinator."""
 
-        formatted_data = pprint.pformat(self.coordinator.data)
-        _LOGGER.debug(f"Received data from coordinator:\n{formatted_data}")
+        # formatted_data = pprint.pformat(self.coordinator.data)
+        # _LOGGER.debug(f"Received data from coordinator:\n{formatted_data}")
 
         self.async_write_ha_state()
 

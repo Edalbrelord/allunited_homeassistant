@@ -1,0 +1,21 @@
+{
+    "config_subentries": {
+      "calendar": {
+        "title": "Calendar",
+        "step": {
+          "user": {
+            "title": "Add calendar",
+            "description": "Configure the calendar"
+          },
+          "reconfigure": {
+            "title": "Update calendar",
+            "description": "..."
+          }
+        },
+        "error": {
+        },
+        "abort": {
+        }
+      }
+    }
+  }
