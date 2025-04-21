@@ -4,7 +4,7 @@ from pathlib import Path
 
 
 async def test_retrieve_events():
-    api = AllUnitedApi()
+    api = AllUnitedApi("empty")
     events = await api.get_events()
 
     assert events == []
@@ -13,7 +13,7 @@ async def test_retrieve_events():
 def test_parse_html():
     html = _load_fixture("example.html")
 
-    api = AllUnitedApi()
+    api = AllUnitedApi("empty")
     (json_events, json_courts) = api._parse_html(html)
 
     # 24 Tennis courts are listed in the sample data
@@ -24,7 +24,7 @@ def test_parse_html():
 def test_parse_events():
     html = _load_fixture("example.html")
 
-    api = AllUnitedApi()
+    api = AllUnitedApi("empty")
     (json_events, _) = api._parse_html(html)
     events = api._parse_events(json_events)
 
@@ -38,7 +38,7 @@ def test_parse_events():
 def test_parse_courts():
     html = _load_fixture("example.html")
 
-    api = AllUnitedApi()
+    api = AllUnitedApi("empty")
     (_, json_courts) = api._parse_html(html)
     courts = api._parse_courts(json_courts)
 

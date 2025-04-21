@@ -9,12 +9,14 @@ from homeassistant.helpers.update_coordinator import (
 )
 
 from .types import AllUnitedReservationsData
+from .allunited_api import AllUnitedApi
 
 _LOGGER = logging.getLogger(__name__)
 
 
 class AllUnitedCoordinator(DataUpdateCoordinator):
     """AllUnited update coordinator."""
+    _api: AllUnitedApi
 
     def __init__(self, hass, config_entry, allunited_api):
         """Initialize my coordinator."""
@@ -26,7 +28,7 @@ class AllUnitedCoordinator(DataUpdateCoordinator):
             update_interval=timedelta(seconds=30),
             always_update=True  # False if __eq__ is available
         )
-        self.api = allunited_api
+        self._api = allunited_api
 
     async def _async_setup(self):
         """Set up Coordinator, called from async_config_entry_first_refresh()"""
@@ -42,18 +44,7 @@ class AllUnitedCoordinator(DataUpdateCoordinator):
             # Note: asyncio.TimeoutError and aiohttp.ClientError are already
             # handled by the data update coordinator.
             async with async_timeout.timeout(10):
-                path = Path(__file__).parent / "examples" / "example.html"
-                html = path.read_text(encoding="utf-8")
-
-                (json_reservations, json_courts) = self.api._parse_html(html)
-
-                reservations = self.api._parse_events(json_reservations)
-                courts = self.api._parse_courts(json_courts)
-
-                data = AllUnitedReservationsData(
-                    courts=courts,
-                    reservations=reservations
-                )
+                data = await self._api.get_data()
 
                 return data
 

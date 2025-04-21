@@ -83,18 +83,7 @@ class AllUnitedCalendarEntity(CoordinatorEntity[AllUnitedCoordinator], CalendarE
         # formatted_data = pprint.pformat(self.coordinator.data)
         # _LOGGER.debug(f"Received data from coordinator:\n{formatted_data}")
 
-        self.async_write_ha_state()
-
-    # Calendar Implementation
-    @property
-    def event(self) -> CalendarEvent | None:
-        """Return the next upcoming event."""
-        return self._event
-
-    async def async_update(self) -> None:
-        """Update entity state with the next upcoming event."""
-
-        _LOGGER.debug("Updating Allunited Calendar")
+        # todo, retrieve active event...
 
         data: AllUnitedReservationsData = self.coordinator.data
         reservations = self.filter_by_courts(
@@ -104,6 +93,19 @@ class AllUnitedCalendarEntity(CoordinatorEntity[AllUnitedCoordinator], CalendarE
         if next_reservation is not None:
             next_event = self.create_calendar_event(next_reservation)
             self._event = next_event
+
+        super()._handle_coordinator_update()
+
+    # Calendar Implementation
+    @property
+    def event(self) -> CalendarEvent | None:
+        """Return the next upcoming event."""
+        return self._event
+
+    # async def async_update(self) -> None:
+    #    """Update entity state with the next upcoming event."""
+
+    #    _LOGGER.debug("Updating Allunited Calendar")
 
     async def async_get_events(
         self, hass: HomeAssistant, start_date: datetime, end_date: datetime

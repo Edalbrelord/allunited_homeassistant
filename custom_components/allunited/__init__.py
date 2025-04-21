@@ -36,11 +36,7 @@ async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     """Set up AllUnited from a config entry."""
 
-    # Store config entry data
-    # hass.data[DOMAIN][entry.entry_id] = entry.data
-
-    # TODO: Where to configure API / URL thingy? __init__.py can store it in hass.data apparently..
-    allunited_api = AllUnitedApi()
+    allunited_api = AllUnitedApi(url=entry.data[CONF_CALENDAR_URL])
     coordinator = AllUnitedCoordinator(
         hass, config_entry=entry, allunited_api=allunited_api)
     entry.runtime_data = coordinator

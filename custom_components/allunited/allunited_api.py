@@ -1,24 +1,45 @@
+import asyncio
 from dateutil import parser
 
 import json
 import re
 
-from .types import AllUnitedReservation, AllUnitedCourt
+from aiohttp import ClientSession, ClientConnectionError
+from aiohttp.hdrs import METH_GET, METH_POST, METH_PUT, METH_DELETE
+
+from .types import AllUnitedReservation, AllUnitedCourt, AllUnitedReservationsData
 
 
 class AllUnitedApi:
     """AllUnited API to fetch data from Planningboard"""
+    _url: str
+    _session: ClientSession | None = None
 
-    def __init__(self) -> None:
+    def __init__(self, url) -> None:
         """Initialize AllUnited API"""
+        self._url = url
 
-    async def get_events(self) -> list[AllUnitedReservation]:
+    async def get_data(self) -> AllUnitedReservationsData:
 
-        # json = self._parse_html(html)
-        # events = self._parse_events(json)
+        if self._session is None:
+            self._session = ClientSession()
 
-        events = []
-        return events
+        response = await self._session.request(
+            METH_GET, self._url
+        )
+
+        html = await response.text()
+
+        (json_events, json_courts) = self._parse_html(html)
+        events = self._parse_events(json=json_events)
+        courts = self._parse_courts(json=json_courts)
+
+        data = AllUnitedReservationsData(
+            courts=courts,
+            reservations=events
+        )
+
+        return data
 
     def _parse_html(self, html: str):
         """Retrieves the JSON object with reservations from the HTML
