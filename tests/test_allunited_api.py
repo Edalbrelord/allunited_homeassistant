@@ -25,7 +25,7 @@ def test_parse_events():
 
     reservation = events[0]
     assert reservation.reservation_id == "71170453"
-    assert reservation.start.isoformat() == "2025-04-01T09:00:00+00:00"
+    assert reservation.start.isoformat() == "2025-04-01T09:00:00+02:00"
 
 
 def test_parse_events_is_ordered():

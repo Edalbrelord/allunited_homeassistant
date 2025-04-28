@@ -1,5 +1,6 @@
 import asyncio
 from dateutil import parser
+from pytz import timezone
 
 import json
 import re
@@ -65,24 +66,21 @@ class AllUnitedApi:
             court = json[key]
             for reservation_raw in court:
                 # TODO: Timezone from config
-                timezones = {None: "Europe/Amsterdam"}
+                tz = timezone("Europe/Amsterdam")
 
                 start_raw = f"{reservation_raw["datefrom"]} {reservation_raw["timefrom"]}"
-                event_start = parser.parse(
-                    start_raw, yearfirst=True, tzinfos=timezones
-                )
+                event_start = parser.parse(start_raw, yearfirst=True)
 
                 end_raw = f"{reservation_raw["dateto"]} {reservation_raw["timeto"]}"
-                event_end = parser.parse(
-                    end_raw, yearfirst=True, tzinfos=timezones
-                )
+                event_end = parser.parse(end_raw, yearfirst=True)
 
                 reservation = AllUnitedReservation(
                     reservation_id=reservation_raw["reservationId"],
                     location=reservation_raw["locationcode"],
-                    start=event_start,
-                    end=event_end
+                    start=tz.localize(event_start),
+                    end=tz.localize(event_end)
                 )
+
                 reservations.append(reservation)
 
         return sorted(reservations, key=lambda reservation: reservation.start)
