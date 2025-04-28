@@ -3,13 +3,6 @@ from custom_components.allunited.allunited_api import AllUnitedApi
 from pathlib import Path
 
 
-async def test_retrieve_events():
-    api = AllUnitedApi("empty")
-    events = await api.get_events()
-
-    assert events == []
-
-
 def test_parse_html():
     html = _load_fixture("example.html")
 

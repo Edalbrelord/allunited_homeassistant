@@ -1,6 +1,6 @@
 
 import logging
-from datetime import datetime
+from datetime import datetime, UTC
 
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant, callback
@@ -80,16 +80,20 @@ class AllUnitedCalendarEntity(CoordinatorEntity[AllUnitedCoordinator], CalendarE
     def _handle_coordinator_update(self) -> None:
         """Handle updated data from the coordinator."""
 
-        # formatted_data = pprint.pformat(self.coordinator.data)
-        # _LOGGER.debug(f"Received data from coordinator:\n{formatted_data}")
-
         # todo, retrieve active event...
 
         data: AllUnitedReservationsData = self.coordinator.data
         reservations = self.filter_by_courts(
             reservations=data.reservations, courts=self._courts)
 
-        next_reservation = next(iter(reservations), None)
+        iterator = iter(reservations)
+        now = datetime.now(UTC)
+        next_reservation = next(iterator, None)
+
+        # Select the current or next event, an event that still has to end
+        while next_reservation is not None and next_reservation.end <= now:
+            next_reservation = next(iterator, None)
+
         if next_reservation is not None:
             next_event = self.create_calendar_event(next_reservation)
             self._event = next_event
@@ -121,6 +125,14 @@ class AllUnitedCalendarEntity(CoordinatorEntity[AllUnitedCoordinator], CalendarE
             reservations=data.reservations, courts=self._courts)
 
         for reservation in reservations:
+            if reservation.end <= start_date:
+                _LOGGER.debug("Skipping event as it ends before start_date")
+                continue
+
+            if reservation.start >= end_date:
+                _LOGGER.debug("Skipping event as it starts after end_date")
+                continue
+
             event = self.create_calendar_event(reservation)
             events.append(event)
 
