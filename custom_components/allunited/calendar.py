@@ -80,8 +80,6 @@ class AllUnitedCalendarEntity(CoordinatorEntity[AllUnitedCoordinator], CalendarE
     def _handle_coordinator_update(self) -> None:
         """Handle updated data from the coordinator."""
 
-        # todo, retrieve active event...
-
         data: AllUnitedReservationsData = self.coordinator.data
         reservations = self.filter_by_courts(
             reservations=data.reservations, courts=self._courts)

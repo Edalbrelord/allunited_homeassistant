@@ -24,8 +24,21 @@ def test_parse_events():
     assert len(events) == 82
 
     reservation = events[0]
-    assert reservation.reservation_id == "71169946"
-    assert reservation.start.isoformat() == "2025-04-01T20:15:00+00:00"
+    assert reservation.reservation_id == "71170453"
+    assert reservation.start.isoformat() == "2025-04-01T09:00:00+00:00"
+
+
+def test_parse_events_is_ordered():
+    html = _load_fixture("example.html")
+
+    api = AllUnitedApi("empty")
+    (json_events, _) = api._parse_html(html)
+    events = api._parse_events(json_events)
+
+    reservation_1 = events[0]
+    reservation_2 = events[1]
+
+    assert reservation_1.start <= reservation_2.start
 
 
 def test_parse_courts():

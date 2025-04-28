@@ -85,7 +85,7 @@ class AllUnitedApi:
                 )
                 reservations.append(reservation)
 
-        return reservations
+        return sorted(reservations, key=lambda reservation: reservation.start)
 
     def _parse_courts(self, json) -> list[AllUnitedCourt]:
         """Creates AllUnitedCourts from json data"""
