@@ -50,9 +50,10 @@ class AllunitedConfigFlow(ConfigFlow, domain=DOMAIN):
         )
 
     async def async_step_reconfigure(self, user_input):
+        entry = await self._get_reconfigure_entry()
         data_schema = {
-            vol.Required(CONF_CALENDAR_NAME): str,
-            vol.Required(CONF_CALENDAR_URL): str
+            vol.Required(CONF_CALENDAR_NAME, default=entry.data[CONF_CALENDAR_NAME] if entry.data else None): str,
+            vol.Required(CONF_CALENDAR_URL, default=entry.data[CONF_CALENDAR_URL] if entry.data else None): str
         }
 
         if user_input is not None:
@@ -72,7 +73,7 @@ class AllunitedConfigFlow(ConfigFlow, domain=DOMAIN):
 class CalendarSubentryFlowHandler(ConfigSubentryFlow):
     """Handle subentry flow for adding and modifying a calendar."""
 
-    async def get_data_schema(self, coordinator) -> vol.Schema:
+    async def get_data_schema(self, coordinator, existing_data: dict | None) -> vol.Schema:
 
         data: AllUnitedReservationsData = coordinator.data
 
@@ -82,8 +83,8 @@ class CalendarSubentryFlowHandler(ConfigSubentryFlow):
             options.append(option)
 
         data_schema = vol.Schema({
-            vol.Required(CONF_CALENDAR_NAME): str,
-            vol.Required(CONF_CALENDAR_COURTS): SelectSelector(
+            vol.Required(CONF_CALENDAR_NAME, default=existing_data[CONF_CALENDAR_NAME] if existing_data != None else None): str,
+            vol.Required(CONF_CALENDAR_COURTS, default=existing_data[CONF_CALENDAR_COURTS] if existing_data != None else None): SelectSelector(
                 config=SelectSelectorConfig(
                     multiple=True,
                     mode=SelectSelectorMode.LIST,
@@ -105,7 +106,7 @@ class CalendarSubentryFlowHandler(ConfigSubentryFlow):
         configuration_data = self.hass.data[DOMAIN][self._entry_id]
         coordinator = configuration_data.coordinator
 
-        data_schema = self.get_data_schema(coordinator)
+        data_schema = await self.get_data_schema(coordinator, None)
 
         if user_input is not None:
             return self.async_create_entry(
@@ -142,7 +143,7 @@ class CalendarSubentryFlowHandler(ConfigSubentryFlow):
         configuration_data = self.hass.data[DOMAIN][self._entry_id]
         coordinator = configuration_data.coordinator
 
-        data_schema = await self.get_data_schema(coordinator)
+        data_schema = await self.get_data_schema(coordinator, config_subentry.data)
 
         return self.async_show_form(
             step_id="reconfigure", data_schema=data_schema

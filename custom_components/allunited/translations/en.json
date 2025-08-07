@@ -1,0 +1,30 @@
+{
+  "config_subentries": {
+    "calendar":{
+      "initiate_flow": {
+        "user": "Add group"
+      },
+      "step":{
+        "reconfigure": {
+          "data": {
+            "name": "Name for this group",
+            "courts": "Courts included in this group"
+          }
+        },
+        "user": {
+          "data": {
+            "name": "Name for this group",
+            "courts": "Courts included in this group"
+          }
+        }
+      }
+
+    }
+  },
+  "system_health": {
+    "info": {
+      "can_reach_server": "Reach AllUnited server"
+    }
+  }
+
+}
