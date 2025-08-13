@@ -15,6 +15,7 @@ def auto_enable_custom_integrations(enable_custom_integrations):
 def empty_reservations_data():
     """Return an empty reservations data object"""
     return AllUnitedReservationsData(
+        timestamp=datetime.fromisoformat("2025-04-28T08:00:00Z"),
         courts=[],
         reservations=[]
     )
@@ -24,6 +25,7 @@ def empty_reservations_data():
 def reservations_data():
     """Return a reservations data object with events and courts"""
     return AllUnitedReservationsData(
+        timestamp=datetime.fromisoformat("2025-04-28T08:00:00Z"),
         courts=[
             AllUnitedCourt("BAAN01", "Baan 1", "GRV"),
             AllUnitedCourt("BAAN02", "Baan 2", "GRV"),

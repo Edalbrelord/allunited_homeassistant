@@ -1,3 +1,4 @@
+from pytz import timezone
 from custom_components.allunited.allunited_api import AllUnitedApi
 
 from pathlib import Path
@@ -6,7 +7,7 @@ from pathlib import Path
 def test_parse_html():
     html = _load_fixture("example.html")
 
-    api = AllUnitedApi("empty")
+    api = AllUnitedApi("empty", tz=timezone("Europe/Amsterdam"))
     (json_events, json_courts) = api._parse_html(html)
 
     # 24 Tennis courts are listed in the sample data
@@ -17,7 +18,7 @@ def test_parse_html():
 def test_parse_events():
     html = _load_fixture("example.html")
 
-    api = AllUnitedApi("empty")
+    api = AllUnitedApi("empty", tz=timezone("Europe/Amsterdam"))
     (json_events, _) = api._parse_html(html)
     events = api._parse_events(json_events)
 
@@ -31,7 +32,7 @@ def test_parse_events():
 def test_parse_events_is_ordered():
     html = _load_fixture("example.html")
 
-    api = AllUnitedApi("empty")
+    api = AllUnitedApi("empty", tz=timezone("Europe/Amsterdam"))
     (json_events, _) = api._parse_html(html)
     events = api._parse_events(json_events)
 
@@ -44,7 +45,7 @@ def test_parse_events_is_ordered():
 def test_parse_courts():
     html = _load_fixture("example.html")
 
-    api = AllUnitedApi("empty")
+    api = AllUnitedApi("empty", tz=timezone("Europe/Amsterdam"))
     (_, json_courts) = api._parse_html(html)
     courts = api._parse_courts(json_courts)
 

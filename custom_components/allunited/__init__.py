@@ -4,6 +4,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 import logging
 
+from pytz import timezone
 import voluptuous as vol
 
 from homeassistant.core import HomeAssistant
@@ -36,7 +37,10 @@ async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     """Set up AllUnited from a config entry."""
 
-    allunited_api = AllUnitedApi(url=entry.data[CONF_CALENDAR_URL])
+    # TODO: Timezone from config
+    tz = await hass.async_add_executor_job(timezone, "Europe/Amsterdam")
+
+    allunited_api = AllUnitedApi(url=entry.data[CONF_CALENDAR_URL], tz=tz)
     coordinator = AllUnitedCoordinator(
         hass, config_entry=entry, allunited_api=allunited_api)
     entry.runtime_data = coordinator
@@ -50,8 +54,9 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     # Fetch initial data so we have data when entities subscribe
     await coordinator.async_config_entry_first_refresh()
 
-    # Forward the setup to the sensor platform
-    await hass.config_entries.async_forward_entry_setups(entry, [Platform.CALENDAR])
+    # Forward the setup to the required platforms
+    platforms: list[Platform] = [Platform.CALENDAR, Platform.SENSOR]
+    await hass.config_entries.async_forward_entry_setups(entry, platforms)
     return True
 
 

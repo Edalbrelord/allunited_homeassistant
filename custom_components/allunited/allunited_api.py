@@ -1,4 +1,5 @@
 import asyncio
+from datetime import datetime as dt
 from dateutil import parser
 from pytz import timezone
 
@@ -16,9 +17,10 @@ class AllUnitedApi:
     _url: str
     _session: ClientSession | None = None
 
-    def __init__(self, url) -> None:
+    def __init__(self, url, tz: timezone) -> None:
         """Initialize AllUnited API"""
         self._url = url
+        self._tz = tz
 
     async def get_data(self) -> AllUnitedReservationsData:
 
@@ -36,6 +38,7 @@ class AllUnitedApi:
         courts = self._parse_courts(json=json_courts)
 
         data = AllUnitedReservationsData(
+            timestamp=dt.now(tz=self._tz),
             courts=courts,
             reservations=events
         )
@@ -65,9 +68,6 @@ class AllUnitedApi:
         for key in json:
             court = json[key]
             for reservation_raw in court:
-                # TODO: Timezone from config
-                tz = timezone("Europe/Amsterdam")
-
                 start_raw = f"{reservation_raw["datefrom"]} {reservation_raw["timefrom"]}"
                 event_start = parser.parse(start_raw, yearfirst=True)
 
@@ -77,8 +77,8 @@ class AllUnitedApi:
                 reservation = AllUnitedReservation(
                     reservation_id=reservation_raw["reservationId"],
                     location=reservation_raw["locationcode"],
-                    start=tz.localize(event_start),
-                    end=tz.localize(event_end)
+                    start=self._tz.localize(event_start),
+                    end=self._tz.localize(event_end)
                 )
 
                 reservations.append(reservation)

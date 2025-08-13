@@ -1,38 +1,73 @@
 """Platform for sensor integration."""
 from __future__ import annotations
+import datetime
 
 from homeassistant.components.sensor import (
-    SensorDeviceClass,
     SensorEntity,
-    SensorStateClass,
+    SensorDeviceClass,
+    SensorEntityDescription
 )
-from homeassistant.const import UnitOfTemperature
-from homeassistant.core import HomeAssistant
-from homeassistant.helpers.entity_platform import AddEntitiesCallback
-from homeassistant.helpers.typing import ConfigType, DiscoveryInfoType
+
+from homeassistant.config_entries import ConfigEntry
+from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
+from homeassistant.core import HomeAssistant, callback
+from homeassistant.helpers.update_coordinator import (
+    CoordinatorEntity,
+)
+from homeassistant.util import dt as dt_util
+
+from .const import DOMAIN, CONF_CALENDAR_NAME, CONF_CALENDAR_COURTS
+from .types import AllUnitedReservation, AllUnitedReservationsData
+from .coordinator import AllUnitedCoordinator
 
 
-def setup_platform(
+async def async_setup_entry(
     hass: HomeAssistant,
-    config: ConfigType,
-    add_entities: AddEntitiesCallback,
-    discovery_info: DiscoveryInfoType | None = None
+    config_entry: ConfigEntry,
+    async_add_entities: AddConfigEntryEntitiesCallback,
 ) -> None:
-    """Set up the sensor platform."""
-    add_entities([ExampleSensor()])
+    """Set up the AllUnited sensor platform."""
+    coordinator = config_entry.runtime_data
+
+    # Create calendar with all events
+    name = config_entry.data[CONF_CALENDAR_NAME]
+    allunited_date_sensor = AllUnitedDateSensor(
+        coordinator,
+        name,
+        unique_id=config_entry.entry_id,
+    )
+
+    sensor_entities = [allunited_date_sensor]
+
+    async_add_entities(sensor_entities, True)
 
 
-class ExampleSensor(SensorEntity):
+class AllUnitedDateSensor(CoordinatorEntity[AllUnitedCoordinator], SensorEntity):
     """Representation of a Sensor."""
 
-    _attr_name = "Example Temperature"
-    _attr_native_unit_of_measurement = UnitOfTemperature.CELSIUS
-    _attr_device_class = SensorDeviceClass.TEMPERATURE
-    _attr_state_class = SensorStateClass.MEASUREMENT
+    _attr_device_class = SensorDeviceClass.TIMESTAMP
 
-    def update(self) -> None:
-        """Fetch new state data for the sensor.
+    entity_description = SensorEntityDescription(
+        key="date_sensor",
+    )
 
-        This is the only method that should fetch new data for Home Assistant.
-        """
-        self._attr_native_value = 23
+    def __init__(
+        self,
+        coordinator,
+        idx,
+        unique_id: str
+    ):
+        """Pass coordinator to CoordinatorEntity."""
+        super().__init__(coordinator, context=idx)
+        self.idx = idx
+        self._attr_unique_id = unique_id
+        self._attr_translation_key = "date_sensor"
+
+    @callback
+    def _handle_coordinator_update(self) -> None:
+        """Handle updated data from the coordinator."""
+        _timestamp: datetime.datetime = self.coordinator.data.timestamp
+        local_timestamp = _timestamp.replace(tzinfo=dt_util.get_default_time_zone())
+        self._attr_native_value = local_timestamp
+
+        self.async_write_ha_state()

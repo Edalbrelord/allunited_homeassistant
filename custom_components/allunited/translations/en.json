@@ -21,6 +21,13 @@
 
     }
   },
+  "entity":{
+    "sensor":{
+      "date_sensor":{
+        "name": "Last schedule received"
+      }
+    }
+  },
   "system_health": {
     "info": {
       "can_reach_server": "Reach AllUnited server"

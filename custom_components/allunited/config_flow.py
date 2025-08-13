@@ -50,7 +50,7 @@ class AllunitedConfigFlow(ConfigFlow, domain=DOMAIN):
         )
 
     async def async_step_reconfigure(self, user_input):
-        entry = await self._get_reconfigure_entry()
+        entry = self._get_reconfigure_entry()
         data_schema = {
             vol.Required(CONF_CALENDAR_NAME, default=entry.data[CONF_CALENDAR_NAME] if entry.data else None): str,
             vol.Required(CONF_CALENDAR_URL, default=entry.data[CONF_CALENDAR_URL] if entry.data else None): str
@@ -58,6 +58,7 @@ class AllunitedConfigFlow(ConfigFlow, domain=DOMAIN):
 
         if user_input is not None:
             return self.async_update_reload_and_abort(
+                entry=entry,
                 title=f"AllUnited - {user_input[CONF_CALENDAR_NAME]}",
                 data={
                     "name": user_input[CONF_CALENDAR_NAME],

@@ -21,5 +21,6 @@ class AllUnitedReservation:
 
 @dataclass
 class AllUnitedReservationsData:
+    timestamp: datetime
     courts: list[AllUnitedCourt]
     reservations: list[AllUnitedReservation]
