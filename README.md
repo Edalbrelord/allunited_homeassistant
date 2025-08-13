@@ -12,5 +12,8 @@ A Calendar entity will be added that contains all reservations for today, on all
 The AllUnited integration supports Sub-entries.
 You can configure groups of courts, new Calendar entities will be created that only contain reservations for these courts.
 
+> [!IMPORTANT]
+> The implementation must be reloaded or Home Assitant restarted to generate the entities for the groups.
+
 ## TODO:
 - Add sensors that show the last successful update date, this can be used to notify administrators of failures.
